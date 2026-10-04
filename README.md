@@ -6,15 +6,16 @@ A modern social voice-room app inspired by real-time live chat communities.
 - React Native + Expo
 - Node.js + Socket.IO
 - PostgreSQL + Prisma ready
-- Tailwind-like style system via RN styles
+- Modern dark premium UI
 
 ## Included
 - Home screen with live rooms
 - Voice room screen with participant grid
 - Chat panel
 - Profile/VIP screen
+- Settings screen
 - Room creation and join flows
-- Dark premium design matching the provided reference
+- Dark premium design matching the provided reference style
 
 ## Run locally
 
@@ -33,4 +34,4 @@ npm run dev
 ```
 
 ## Notes
-This is a strong starter foundation for a production voice-room app. It includes the UI and realtime room logic needed for a real social chat platform.
+This repository is a strong Android starter for a social voice-room app inspired by live room platforms. It provides a realistic UI foundation and room logic starter for further production work.
