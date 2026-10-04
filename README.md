@@ -1,56 +1,36 @@
-# Voice Party Chat
+# max132
 
-A real-time voice party chat app inspired by social room apps like Hago.
+A modern social voice-room app inspired by real-time live chat communities.
 
-## Features
-- Live voice rooms
-- Create and join rooms
-- Mute/unmute controls
-- In-room text chat
-- Room host moderation
-- User avatars and profiles
-- Dark premium UI
-- Responsive layout
+## Stack
+- React Native + Expo
+- Node.js + Socket.IO
+- PostgreSQL + Prisma ready
+- Tailwind-like style system via RN styles
 
-## Tech Stack
-- Frontend: React + Vite + TailwindCSS
-- Backend: Node.js + Express + Socket.IO
-- Realtime audio: WebRTC
-- Database: PostgreSQL + Prisma
-- Auth: Firebase or Supabase-ready
-- Icons: Lucide React
+## Included
+- Home screen with live rooms
+- Voice room screen with participant grid
+- Chat panel
+- Profile/VIP screen
+- Room creation and join flows
+- Dark premium design matching the provided reference
 
-## Project Structure
+## Run locally
 
 ```bash
-voice-party-chat/
-├── client/
-│   ├── src/
-│   ├── package.json
-│   └── vite.config.ts
-├── server/
-│   ├── src/
-│   ├── prisma/
-│   └── package.json
-├── README.md
-├── .gitignore
-├── .env.example
-├── docker-compose.yml
-├── package.json
-└── .npmrc
+cd client
+npm install
+npx expo start
 ```
 
-## Quick Start
+Backend:
 
 ```bash
+cd server
 npm install
-
-# frontend
-cd client && npm install && npm run dev
-
-# backend
-cd ../server && npm install && npm run dev
+npm run dev
 ```
 
 ## Notes
-This project is structured as a modern starter for a social voice room app and can be extended with avatars, live moderation, gifting, and room themes.
+This is a strong starter foundation for a production voice-room app. It includes the UI and realtime room logic needed for a real social chat platform.
