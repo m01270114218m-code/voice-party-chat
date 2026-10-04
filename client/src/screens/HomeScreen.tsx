@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { View, Text, StyleSheet, Pressable, ScrollView, TextInput } from 'react-native';
 import { LinearGradient } from 'expo-linear-gradient';
 import { Search, Plus, Headphones, Sparkles, Users, Mic, MessageSquareText, Settings, UserRound } from 'lucide-react-native';
@@ -9,17 +9,20 @@ export function HomeScreen({
   onOpenProfile,
   onOpenChat,
   onOpenSettings,
+  onCreateRoom,
+  user,
 }: {
   onJoinRoom: (roomId: string) => void;
   onOpenProfile: () => void;
   onOpenChat: () => void;
   onOpenSettings: () => void;
+  onCreateRoom: () => void;
+  user: any;
 }) {
   const [search, setSearch] = useState('');
-  const [roomName, setRoomName] = useState('');
 
-  const filteredRooms = featuredRooms.filter((room) =>
-    room.name.toLowerCase().includes(search.toLowerCase()) || room.topic.toLowerCase().includes(search.toLowerCase())
+  const filteredRooms = featuredRooms.filter(
+    (room) => room.name.toLowerCase().includes(search.toLowerCase()) || room.topic.toLowerCase().includes(search.toLowerCase())
   );
 
   return (
@@ -38,7 +41,9 @@ export function HomeScreen({
           <Search size={20} color="#fff" />
           <TextInput value={search} onChangeText={setSearch} placeholder="بحث" placeholderTextColor="#b6bfd0" style={styles.input} />
         </View>
-        <Pressable style={styles.iconBtn} onPress={onOpenProfile}><UserRound size={18} color="#111827" /></Pressable>
+        <Pressable style={styles.iconBtn} onPress={onOpenProfile}>
+          <UserRound size={18} color="#111827" />
+        </Pressable>
       </View>
 
       <ScrollView style={styles.scroll} showsVerticalScrollIndicator={false}>
@@ -63,13 +68,14 @@ export function HomeScreen({
         </View>
 
         <View style={styles.createPanel}>
-          <TextInput value={roomName} onChangeText={setRoomName} placeholder="اسم الغرفة" placeholderTextColor="#b6bfd0" style={styles.createInput} />
-          <Pressable style={styles.createButton} onPress={() => roomName.trim() && onJoinRoom('room-custom')}>
-            <Text style={styles.createText}>إنشاء غرفة</Text>
+          <Pressable style={styles.createButton} onPress={onCreateRoom}>
+            <Plus size={20} color="#111827" />
+            <Text style={styles.createText}>إنشاء غرفة جديدة</Text>
           </Pressable>
         </View>
 
         <View style={styles.listSection}>
+          <Text style={styles.sectionTitle}>الغرف المتاحة</Text>
           {filteredRooms.map((room) => (
             <Pressable key={room.id} style={styles.listItem} onPress={() => onJoinRoom(room.id)}>
               <View style={[styles.listAvatar, { backgroundColor: room.color }]}>
@@ -79,16 +85,25 @@ export function HomeScreen({
                 <Text style={styles.listName}>{room.name}</Text>
                 <Text style={styles.listTopic}>{room.topic}</Text>
               </View>
-              <View style={styles.memberPill}><Users size={12} color="#fff" /><Text style={styles.memberText}>{room.members}</Text></View>
+              <View style={styles.memberPill}>
+                <Users size={12} color="#fff" />
+                <Text style={styles.memberText}>{room.members}</Text>
+              </View>
             </Pressable>
           ))}
         </View>
       </ScrollView>
 
       <View style={styles.tabBar}>
-        <Pressable style={styles.tabBtn} onPress={onOpenSettings}><Settings size={20} color="#111827" /></Pressable>
-        <Pressable style={styles.tabBtnActive} onPress={() => onJoinRoom('room-1')}><Mic size={20} color="#fff" /></Pressable>
-        <Pressable style={styles.tabBtn} onPress={onOpenChat}><MessageSquareText size={20} color="#111827" /></Pressable>
+        <Pressable style={styles.tabBtn} onPress={onOpenSettings}>
+          <Settings size={20} color="#111827" />
+        </Pressable>
+        <Pressable style={styles.tabBtnActive} onPress={() => onJoinRoom('room-1')}>
+          <Mic size={20} color="#fff" />
+        </Pressable>
+        <Pressable style={styles.tabBtn} onPress={onOpenChat}>
+          <MessageSquareText size={20} color="#111827" />
+        </Pressable>
       </View>
     </View>
   );
@@ -117,12 +132,12 @@ const styles = StyleSheet.create({
   liveText: { color: '#fff', fontSize: 10, fontWeight: '700' },
   roomTitle: { color: '#fff', fontSize: 18, fontWeight: '800' },
   roomMembers: { color: '#fff', fontSize: 12, opacity: 0.9 },
-  createPanel: { backgroundColor: 'rgba(255,255,255,0.06)', borderRadius: 18, padding: 12, marginBottom: 18 },
-  createInput: { backgroundColor: 'rgba(255,255,255,0.05)', borderRadius: 12, paddingHorizontal: 12, paddingVertical: 10, color: '#fff', marginBottom: 10 },
-  createButton: { backgroundColor: '#ec4899', paddingVertical: 12, borderRadius: 12, alignItems: 'center' },
-  createText: { color: '#fff', fontWeight: '800' },
-  listSection: { gap: 10, marginBottom: 80 },
-  listItem: { flexDirection: 'row', alignItems: 'center', backgroundColor: 'rgba(255,255,255,0.05)', borderRadius: 18, padding: 12, gap: 12 },
+  createPanel: { marginBottom: 18 },
+  createButton: { backgroundColor: '#ec4899', flexDirection: 'row', alignItems: 'center', justifyContent: 'center', gap: 8, paddingVertical: 14, borderRadius: 14 },
+  createText: { color: '#fff', fontWeight: '800', fontSize: 16 },
+  listSection: { marginBottom: 80 },
+  sectionTitle: { color: '#fff', fontSize: 18, fontWeight: '800', marginBottom: 12 },
+  listItem: { flexDirection: 'row', alignItems: 'center', backgroundColor: 'rgba(255,255,255,0.05)', borderRadius: 18, padding: 12, gap: 12, marginBottom: 10 },
   listAvatar: { width: 50, height: 50, borderRadius: 16, alignItems: 'center', justifyContent: 'center' },
   listInfo: { flex: 1 },
   listName: { color: '#fff', fontSize: 16, fontWeight: '800' },
