@@ -1,0 +1,48 @@
+export type RoomItem = {
+  id: string;
+  name: string;
+  topic: string;
+  members: number;
+  live: boolean;
+  color: string;
+  accent: string;
+};
+
+export type ChatMessage = {
+  id: string;
+  user: string;
+  text: string;
+  mine?: boolean;
+};
+
+export const featuredRooms: RoomItem[] = [
+  { id: 'room-1', name: 'Gaming Lounge', topic: 'PUBG Squad', members: 28, live: true, color: '#6d28d9', accent: '#22d3ee' },
+  { id: 'room-2', name: 'Night Chill', topic: 'Music & talk', members: 18, live: true, color: '#ec4899', accent: '#f9a8d4' },
+  { id: 'room-3', name: 'Study Circle', topic: 'Focus mode', members: 12, live: false, color: '#3b82f6', accent: '#93c5fd' },
+  { id: 'room-4', name: 'Arabic Talk', topic: 'Chat & vibes', members: 30, live: true, color: '#8b5cf6', accent: '#c4b5fd' },
+];
+
+export const participantList = [
+  { id: 'p1', name: 'Ammar', status: 'host', color: '#8b5cf6' },
+  { id: 'p2', name: 'Sara', status: 'speaker', color: '#22d3ee' },
+  { id: 'p3', name: 'Nora', status: 'speaker', color: '#f59e0b' },
+  { id: 'p4', name: 'Yousef', status: 'listener', color: '#34d399' },
+  { id: 'p5', name: 'Dana', status: 'listener', color: '#f472b6' },
+  { id: 'p6', name: 'Ali', status: 'listener', color: '#60a5fa' },
+  { id: 'p7', name: 'Maya', status: 'listener', color: '#fb7185' },
+  { id: 'p8', name: 'Omar', status: 'listener', color: '#a78bfa' },
+];
+
+export const messages: ChatMessage[] = [
+  { id: 'm1', user: 'Ammar', text: 'Welcome everyone 💜' },
+  { id: 'm2', user: 'You', text: 'Let’s vibe together!', mine: true },
+  { id: 'm3', user: 'Sara', text: 'This room is amazing!' },
+  { id: 'm4', user: 'You', text: 'Stay online, we are live now ✨', mine: true },
+];
+
+export const profileStats = {
+  coins: 0,
+  gifts: 0,
+  earned: 0,
+  vip: 'VIP',
+};
