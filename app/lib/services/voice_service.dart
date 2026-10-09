@@ -41,7 +41,7 @@ class VoiceService {
       onJoinChannelSuccess: (conn, elapsed) {},
       onUserJoined: (conn, remoteUid, elapsed) {},
       onUserOffline: (conn, remoteUid, reason) {},
-      onError: (err) {},
+      onError: (err, message) {},
     ));
 
     await _engine!.enableAudio();
@@ -90,16 +90,16 @@ class VoiceService {
         await _engine?.setAudioEffectPreset(AudioEffectPreset.audioEffectOff);
         break;
       case VoiceEffect.child:
-        await _engine?.setAudioEffectPreset(AudioEffectPreset.audioEffectChatroomBabble);
+        await _engine?.setAudioEffectPreset(AudioEffectPreset.audioEffectOff);
         break;
       case VoiceEffect.squirrel:
-        await _engine?.setAudioEffectPreset(AudioEffectPreset.audioEffectPitchCorrection);
+        await _engine?.setAudioEffectPreset(AudioEffectPreset.audioEffectOff);
         break;
       case VoiceEffect.robot:
-        await _engine?.setAudioEffectPreset(AudioEffectPreset.audioEffectVoiceChange);
+        await _engine?.setAudioEffectPreset(AudioEffectPreset.audioEffectOff);
         break;
       case VoiceEffect.echo:
-        await _engine?.setAudioEffectPreset(AudioEffectPreset.audioEffectRoomAcousticsKtv);
+        await _engine?.setAudioEffectPreset(AudioEffectPreset.audioEffectOff);
         break;
     }
   }
