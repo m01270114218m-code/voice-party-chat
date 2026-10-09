@@ -26,19 +26,19 @@ class _NotificationsScreenState extends State<NotificationsScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: const Text('\u0627\u0644\u0625\u0634\u0639\u0627\u0631\u0627\u062a')),
+      appBar: AppBar(title: const Text('الإشعارات')),
       body: _loading
           ? const Center(child: CircularProgressIndicator())
           : _items.isEmpty
-              ? const Center(child: Text('\u0644\u0627 \u062a\u0648\u062c\u062f \u0625\u0634\u0639\u0627\u0631\u0627\u062a', style: TextStyle(color: AppTheme.textMuted)))
+              ? const Center(child: Text('لا توجد إشعارات', style: TextStyle(color: Colors.grey)))
               : ListView.builder(
                   itemCount: _items.length,
                   itemBuilder: (_, i) {
                     final n = _items[i];
                     return ListTile(
                       leading: const Icon(Icons.notifications_none, size: 24),
-                      title: Text(n['title'] ?? ''),
-                      subtitle: Text(n['body'] ?? ''),
+                      title: Text('${n['title'] ?? ''}'),
+                      subtitle: Text('${n['body'] ?? ''}'),
                     );
                   },
                 ),
