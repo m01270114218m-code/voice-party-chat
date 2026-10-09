@@ -1,0 +1,3906 @@
+{
+  "project": "VoiceChat",
+  "version": "v6",
+  "style": "glossy 3D / glassmorphism, neon magenta-purple-cyan + gold accents",
+  "generation": "each asset generated individually (one image per asset, no sheets, no cropping)",
+  "total_required": 380,
+  "total_found": 380,
+  "categories": {
+    "brand": {
+      "count": 7,
+      "usage": "Splash screen, app icon, wallet header, recharge banner",
+      "items": [
+        {
+          "name": "logo_3d",
+          "path": "assets/brand/logo_3d.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/brand__logo_3d/brand__logo_3d.png",
+          "size": [
+            1024,
+            1024
+          ],
+          "usage": "Splash screen, app icon, wallet header, recharge banner"
+        },
+        {
+          "name": "app_icon",
+          "path": "assets/brand/app_icon.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/brand__app_icon/brand__app_icon.png",
+          "size": [
+            1024,
+            1024
+          ],
+          "usage": "Splash screen, app icon, wallet header, recharge banner"
+        },
+        {
+          "name": "splash_emblem",
+          "path": "assets/brand/splash_emblem.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/brand__splash_emblem/brand__splash_emblem.png",
+          "size": [
+            1024,
+            1024
+          ],
+          "usage": "Splash screen, app icon, wallet header, recharge banner"
+        },
+        {
+          "name": "coin_icon",
+          "path": "assets/brand/coin_icon.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/brand__coin_icon/brand__coin_icon.png",
+          "size": [
+            1024,
+            1024
+          ],
+          "usage": "Splash screen, app icon, wallet header, recharge banner"
+        },
+        {
+          "name": "diamond_icon",
+          "path": "assets/brand/diamond_icon.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/brand__diamond_icon/brand__diamond_icon.png",
+          "size": [
+            1024,
+            1024
+          ],
+          "usage": "Splash screen, app icon, wallet header, recharge banner"
+        },
+        {
+          "name": "store_icon_512",
+          "path": "assets/brand/store_icon_512.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/brand__store_icon_512/brand__store_icon_512.png",
+          "size": [
+            1024,
+            1024
+          ],
+          "usage": "Splash screen, app icon, wallet header, recharge banner"
+        },
+        {
+          "name": "banner_recharge",
+          "path": "assets/brand/banner_recharge.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/brand__banner_recharge/brand__banner_recharge.png",
+          "size": [
+            1024,
+            1024
+          ],
+          "usage": "Splash screen, app icon, wallet header, recharge banner"
+        }
+      ]
+    },
+    "icons": {
+      "count": 48,
+      "usage": "App-wide icon set (nav bar, headers, lists, actions)",
+      "items": [
+        {
+          "name": "search",
+          "path": "assets/icons/search.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/icons__search/icons__search.png",
+          "size": [
+            256,
+            256
+          ],
+          "usage": "App-wide icon set (nav bar, headers, lists, actions)"
+        },
+        {
+          "name": "bell",
+          "path": "assets/icons/bell.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/icons__bell/icons__bell.png",
+          "size": [
+            256,
+            256
+          ],
+          "usage": "App-wide icon set (nav bar, headers, lists, actions)"
+        },
+        {
+          "name": "wallet",
+          "path": "assets/icons/wallet.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/icons__wallet/icons__wallet.png",
+          "size": [
+            256,
+            256
+          ],
+          "usage": "App-wide icon set (nav bar, headers, lists, actions)"
+        },
+        {
+          "name": "coins",
+          "path": "assets/icons/coins.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/icons__coins/icons__coins.png",
+          "size": [
+            256,
+            256
+          ],
+          "usage": "App-wide icon set (nav bar, headers, lists, actions)"
+        },
+        {
+          "name": "diamond",
+          "path": "assets/icons/diamond.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/icons__diamond/icons__diamond.png",
+          "size": [
+            256,
+            256
+          ],
+          "usage": "App-wide icon set (nav bar, headers, lists, actions)"
+        },
+        {
+          "name": "gift",
+          "path": "assets/icons/gift.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/icons__gift/icons__gift.png",
+          "size": [
+            256,
+            256
+          ],
+          "usage": "App-wide icon set (nav bar, headers, lists, actions)"
+        },
+        {
+          "name": "mic",
+          "path": "assets/icons/mic.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/icons__mic/icons__mic.png",
+          "size": [
+            256,
+            256
+          ],
+          "usage": "App-wide icon set (nav bar, headers, lists, actions)"
+        },
+        {
+          "name": "mic_mute",
+          "path": "assets/icons/mic_mute.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/icons__mic_mute/icons__mic_mute.png",
+          "size": [
+            256,
+            256
+          ],
+          "usage": "App-wide icon set (nav bar, headers, lists, actions)"
+        },
+        {
+          "name": "speaker",
+          "path": "assets/icons/speaker.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/icons__speaker/icons__speaker.png",
+          "size": [
+            256,
+            256
+          ],
+          "usage": "App-wide icon set (nav bar, headers, lists, actions)"
+        },
+        {
+          "name": "hand_raise",
+          "path": "assets/icons/hand_raise.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/icons__hand_raise/icons__hand_raise.png",
+          "size": [
+            256,
+            256
+          ],
+          "usage": "App-wide icon set (nav bar, headers, lists, actions)"
+        },
+        {
+          "name": "close",
+          "path": "assets/icons/close.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/icons__close/icons__close.png",
+          "size": [
+            256,
+            256
+          ],
+          "usage": "App-wide icon set (nav bar, headers, lists, actions)"
+        },
+        {
+          "name": "settings",
+          "path": "assets/icons/settings.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/icons__settings/icons__settings.png",
+          "size": [
+            256,
+            256
+          ],
+          "usage": "App-wide icon set (nav bar, headers, lists, actions)"
+        },
+        {
+          "name": "profile",
+          "path": "assets/icons/profile.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/icons__profile/icons__profile.png",
+          "size": [
+            256,
+            256
+          ],
+          "usage": "App-wide icon set (nav bar, headers, lists, actions)"
+        },
+        {
+          "name": "friends",
+          "path": "assets/icons/friends.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/icons__friends/icons__friends.png",
+          "size": [
+            256,
+            256
+          ],
+          "usage": "App-wide icon set (nav bar, headers, lists, actions)"
+        },
+        {
+          "name": "messages",
+          "path": "assets/icons/messages.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/icons__messages/icons__messages.png",
+          "size": [
+            256,
+            256
+          ],
+          "usage": "App-wide icon set (nav bar, headers, lists, actions)"
+        },
+        {
+          "name": "like",
+          "path": "assets/icons/like.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/icons__like/icons__like.png",
+          "size": [
+            256,
+            256
+          ],
+          "usage": "App-wide icon set (nav bar, headers, lists, actions)"
+        },
+        {
+          "name": "comment",
+          "path": "assets/icons/comment.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/icons__comment/icons__comment.png",
+          "size": [
+            256,
+            256
+          ],
+          "usage": "App-wide icon set (nav bar, headers, lists, actions)"
+        },
+        {
+          "name": "share",
+          "path": "assets/icons/share.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/icons__share/icons__share.png",
+          "size": [
+            256,
+            256
+          ],
+          "usage": "App-wide icon set (nav bar, headers, lists, actions)"
+        },
+        {
+          "name": "plus",
+          "path": "assets/icons/plus.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/icons__plus/icons__plus.png",
+          "size": [
+            256,
+            256
+          ],
+          "usage": "App-wide icon set (nav bar, headers, lists, actions)"
+        },
+        {
+          "name": "lock",
+          "path": "assets/icons/lock.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/icons__lock/icons__lock.png",
+          "size": [
+            256,
+            256
+          ],
+          "usage": "App-wide icon set (nav bar, headers, lists, actions)"
+        },
+        {
+          "name": "block",
+          "path": "assets/icons/block.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/icons__block/icons__block.png",
+          "size": [
+            256,
+            256
+          ],
+          "usage": "App-wide icon set (nav bar, headers, lists, actions)"
+        },
+        {
+          "name": "kick",
+          "path": "assets/icons/kick.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/icons__kick/icons__kick.png",
+          "size": [
+            256,
+            256
+          ],
+          "usage": "App-wide icon set (nav bar, headers, lists, actions)"
+        },
+        {
+          "name": "translate",
+          "path": "assets/icons/translate.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/icons__translate/icons__translate.png",
+          "size": [
+            256,
+            256
+          ],
+          "usage": "App-wide icon set (nav bar, headers, lists, actions)"
+        },
+        {
+          "name": "voice_changer",
+          "path": "assets/icons/voice_changer.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/icons__voice_changer/icons__voice_changer.png",
+          "size": [
+            256,
+            256
+          ],
+          "usage": "App-wide icon set (nav bar, headers, lists, actions)"
+        },
+        {
+          "name": "wheel",
+          "path": "assets/icons/wheel.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/icons__wheel/icons__wheel.png",
+          "size": [
+            256,
+            256
+          ],
+          "usage": "App-wide icon set (nav bar, headers, lists, actions)"
+        },
+        {
+          "name": "games",
+          "path": "assets/icons/games.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/icons__games/icons__games.png",
+          "size": [
+            256,
+            256
+          ],
+          "usage": "App-wide icon set (nav bar, headers, lists, actions)"
+        },
+        {
+          "name": "crown",
+          "path": "assets/icons/crown.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/icons__crown/icons__crown.png",
+          "size": [
+            256,
+            256
+          ],
+          "usage": "App-wide icon set (nav bar, headers, lists, actions)"
+        },
+        {
+          "name": "vip_badge",
+          "path": "assets/icons/vip_badge.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/icons__vip_badge/icons__vip_badge.png",
+          "size": [
+            256,
+            256
+          ],
+          "usage": "App-wide icon set (nav bar, headers, lists, actions)"
+        },
+        {
+          "name": "level_badge",
+          "path": "assets/icons/level_badge.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/icons__level_badge/icons__level_badge.png",
+          "size": [
+            256,
+            256
+          ],
+          "usage": "App-wide icon set (nav bar, headers, lists, actions)"
+        },
+        {
+          "name": "home",
+          "path": "assets/icons/home.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/icons__home/icons__home.png",
+          "size": [
+            256,
+            256
+          ],
+          "usage": "App-wide icon set (nav bar, headers, lists, actions)"
+        },
+        {
+          "name": "room",
+          "path": "assets/icons/room.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/icons__room/icons__room.png",
+          "size": [
+            256,
+            256
+          ],
+          "usage": "App-wide icon set (nav bar, headers, lists, actions)"
+        },
+        {
+          "name": "camera",
+          "path": "assets/icons/camera.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/icons__camera/icons__camera.png",
+          "size": [
+            256,
+            256
+          ],
+          "usage": "App-wide icon set (nav bar, headers, lists, actions)"
+        },
+        {
+          "name": "image",
+          "path": "assets/icons/image.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/icons__image/icons__image.png",
+          "size": [
+            256,
+            256
+          ],
+          "usage": "App-wide icon set (nav bar, headers, lists, actions)"
+        },
+        {
+          "name": "send",
+          "path": "assets/icons/send.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/icons__send/icons__send.png",
+          "size": [
+            256,
+            256
+          ],
+          "usage": "App-wide icon set (nav bar, headers, lists, actions)"
+        },
+        {
+          "name": "emoji",
+          "path": "assets/icons/emoji.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/icons__emoji/icons__emoji.png",
+          "size": [
+            256,
+            256
+          ],
+          "usage": "App-wide icon set (nav bar, headers, lists, actions)"
+        },
+        {
+          "name": "more",
+          "path": "assets/icons/more.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/icons__more/icons__more.png",
+          "size": [
+            256,
+            256
+          ],
+          "usage": "App-wide icon set (nav bar, headers, lists, actions)"
+        },
+        {
+          "name": "filter",
+          "path": "assets/icons/filter.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/icons__filter/icons__filter.png",
+          "size": [
+            256,
+            256
+          ],
+          "usage": "App-wide icon set (nav bar, headers, lists, actions)"
+        },
+        {
+          "name": "check",
+          "path": "assets/icons/check.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/icons__check/icons__check.png",
+          "size": [
+            256,
+            256
+          ],
+          "usage": "App-wide icon set (nav bar, headers, lists, actions)"
+        },
+        {
+          "name": "star",
+          "path": "assets/icons/star.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/icons__star/icons__star.png",
+          "size": [
+            256,
+            256
+          ],
+          "usage": "App-wide icon set (nav bar, headers, lists, actions)"
+        },
+        {
+          "name": "heart",
+          "path": "assets/icons/heart.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/icons__heart/icons__heart.png",
+          "size": [
+            256,
+            256
+          ],
+          "usage": "App-wide icon set (nav bar, headers, lists, actions)"
+        },
+        {
+          "name": "fire",
+          "path": "assets/icons/fire.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/icons__fire/icons__fire.png",
+          "size": [
+            256,
+            256
+          ],
+          "usage": "App-wide icon set (nav bar, headers, lists, actions)"
+        },
+        {
+          "name": "trophy",
+          "path": "assets/icons/trophy.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/icons__trophy/icons__trophy.png",
+          "size": [
+            256,
+            256
+          ],
+          "usage": "App-wide icon set (nav bar, headers, lists, actions)"
+        },
+        {
+          "name": "medal",
+          "path": "assets/icons/medal.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/icons__medal/icons__medal.png",
+          "size": [
+            256,
+            256
+          ],
+          "usage": "App-wide icon set (nav bar, headers, lists, actions)"
+        },
+        {
+          "name": "shield",
+          "path": "assets/icons/shield.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/icons__shield/icons__shield.png",
+          "size": [
+            256,
+            256
+          ],
+          "usage": "App-wide icon set (nav bar, headers, lists, actions)"
+        },
+        {
+          "name": "eye",
+          "path": "assets/icons/eye.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/icons__eye/icons__eye.png",
+          "size": [
+            256,
+            256
+          ],
+          "usage": "App-wide icon set (nav bar, headers, lists, actions)"
+        },
+        {
+          "name": "edit",
+          "path": "assets/icons/edit.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/icons__edit/icons__edit.png",
+          "size": [
+            256,
+            256
+          ],
+          "usage": "App-wide icon set (nav bar, headers, lists, actions)"
+        },
+        {
+          "name": "logout",
+          "path": "assets/icons/logout.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/icons__logout/icons__logout.png",
+          "size": [
+            256,
+            256
+          ],
+          "usage": "App-wide icon set (nav bar, headers, lists, actions)"
+        },
+        {
+          "name": "refresh",
+          "path": "assets/icons/refresh.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/icons__refresh/icons__refresh.png",
+          "size": [
+            256,
+            256
+          ],
+          "usage": "App-wide icon set (nav bar, headers, lists, actions)"
+        }
+      ]
+    },
+    "buttons": {
+      "count": 138,
+      "usage": "Every button in every screen (normal/pressed/disabled)",
+      "items": [
+        {
+          "name": "btn_primary_normal",
+          "path": "assets/buttons/btn_primary_normal.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_primary_normal/buttons__btn_primary_normal.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_primary_pressed",
+          "path": "assets/buttons/btn_primary_pressed.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_primary_pressed/buttons__btn_primary_pressed.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_primary_disabled",
+          "path": "assets/buttons/btn_primary_disabled.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_primary_disabled/buttons__btn_primary_disabled.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_secondary_normal",
+          "path": "assets/buttons/btn_secondary_normal.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_secondary_normal/buttons__btn_secondary_normal.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_secondary_pressed",
+          "path": "assets/buttons/btn_secondary_pressed.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_secondary_pressed/buttons__btn_secondary_pressed.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_secondary_disabled",
+          "path": "assets/buttons/btn_secondary_disabled.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_secondary_disabled/buttons__btn_secondary_disabled.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_ghost_normal",
+          "path": "assets/buttons/btn_ghost_normal.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_ghost_normal/buttons__btn_ghost_normal.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_ghost_pressed",
+          "path": "assets/buttons/btn_ghost_pressed.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_ghost_pressed/buttons__btn_ghost_pressed.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_ghost_disabled",
+          "path": "assets/buttons/btn_ghost_disabled.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_ghost_disabled/buttons__btn_ghost_disabled.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_danger_normal",
+          "path": "assets/buttons/btn_danger_normal.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_danger_normal/buttons__btn_danger_normal.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_danger_pressed",
+          "path": "assets/buttons/btn_danger_pressed.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_danger_pressed/buttons__btn_danger_pressed.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_danger_disabled",
+          "path": "assets/buttons/btn_danger_disabled.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_danger_disabled/buttons__btn_danger_disabled.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_success_normal",
+          "path": "assets/buttons/btn_success_normal.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_success_normal/buttons__btn_success_normal.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_success_pressed",
+          "path": "assets/buttons/btn_success_pressed.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_success_pressed/buttons__btn_success_pressed.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_success_disabled",
+          "path": "assets/buttons/btn_success_disabled.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_success_disabled/buttons__btn_success_disabled.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_gold_normal",
+          "path": "assets/buttons/btn_gold_normal.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_gold_normal/buttons__btn_gold_normal.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_gold_pressed",
+          "path": "assets/buttons/btn_gold_pressed.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_gold_pressed/buttons__btn_gold_pressed.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_gold_disabled",
+          "path": "assets/buttons/btn_gold_disabled.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_gold_disabled/buttons__btn_gold_disabled.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_circle_primary_normal",
+          "path": "assets/buttons/btn_circle_primary_normal.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_circle_primary_normal/buttons__btn_circle_primary_normal.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_circle_primary_pressed",
+          "path": "assets/buttons/btn_circle_primary_pressed.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_circle_primary_pressed/buttons__btn_circle_primary_pressed.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_circle_primary_disabled",
+          "path": "assets/buttons/btn_circle_primary_disabled.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_circle_primary_disabled/buttons__btn_circle_primary_disabled.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_circle_secondary_normal",
+          "path": "assets/buttons/btn_circle_secondary_normal.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_circle_secondary_normal/buttons__btn_circle_secondary_normal.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_circle_secondary_pressed",
+          "path": "assets/buttons/btn_circle_secondary_pressed.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_circle_secondary_pressed/buttons__btn_circle_secondary_pressed.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_circle_secondary_disabled",
+          "path": "assets/buttons/btn_circle_secondary_disabled.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_circle_secondary_disabled/buttons__btn_circle_secondary_disabled.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_circle_ghost_normal",
+          "path": "assets/buttons/btn_circle_ghost_normal.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_circle_ghost_normal/buttons__btn_circle_ghost_normal.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_circle_ghost_pressed",
+          "path": "assets/buttons/btn_circle_ghost_pressed.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_circle_ghost_pressed/buttons__btn_circle_ghost_pressed.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_circle_ghost_disabled",
+          "path": "assets/buttons/btn_circle_ghost_disabled.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_circle_ghost_disabled/buttons__btn_circle_ghost_disabled.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_circle_gold_normal",
+          "path": "assets/buttons/btn_circle_gold_normal.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_circle_gold_normal/buttons__btn_circle_gold_normal.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_circle_gold_pressed",
+          "path": "assets/buttons/btn_circle_gold_pressed.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_circle_gold_pressed/buttons__btn_circle_gold_pressed.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_circle_gold_disabled",
+          "path": "assets/buttons/btn_circle_gold_disabled.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_circle_gold_disabled/buttons__btn_circle_gold_disabled.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_login_normal",
+          "path": "assets/buttons/btn_login_normal.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_login_normal/buttons__btn_login_normal.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_login_pressed",
+          "path": "assets/buttons/btn_login_pressed.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_login_pressed/buttons__btn_login_pressed.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_login_disabled",
+          "path": "assets/buttons/btn_login_disabled.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_login_disabled/buttons__btn_login_disabled.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_google_normal",
+          "path": "assets/buttons/btn_google_normal.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_google_normal/buttons__btn_google_normal.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_google_pressed",
+          "path": "assets/buttons/btn_google_pressed.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_google_pressed/buttons__btn_google_pressed.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_google_disabled",
+          "path": "assets/buttons/btn_google_disabled.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_google_disabled/buttons__btn_google_disabled.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_phone_normal",
+          "path": "assets/buttons/btn_phone_normal.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_phone_normal/buttons__btn_phone_normal.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_phone_pressed",
+          "path": "assets/buttons/btn_phone_pressed.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_phone_pressed/buttons__btn_phone_pressed.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_phone_disabled",
+          "path": "assets/buttons/btn_phone_disabled.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_phone_disabled/buttons__btn_phone_disabled.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_otp_normal",
+          "path": "assets/buttons/btn_otp_normal.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_otp_normal/buttons__btn_otp_normal.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_otp_pressed",
+          "path": "assets/buttons/btn_otp_pressed.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_otp_pressed/buttons__btn_otp_pressed.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_otp_disabled",
+          "path": "assets/buttons/btn_otp_disabled.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_otp_disabled/buttons__btn_otp_disabled.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_guest_normal",
+          "path": "assets/buttons/btn_guest_normal.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_guest_normal/buttons__btn_guest_normal.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_guest_pressed",
+          "path": "assets/buttons/btn_guest_pressed.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_guest_pressed/buttons__btn_guest_pressed.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_guest_disabled",
+          "path": "assets/buttons/btn_guest_disabled.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_guest_disabled/buttons__btn_guest_disabled.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_create_room_normal",
+          "path": "assets/buttons/btn_create_room_normal.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_create_room_normal/buttons__btn_create_room_normal.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_create_room_pressed",
+          "path": "assets/buttons/btn_create_room_pressed.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_create_room_pressed/buttons__btn_create_room_pressed.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_create_room_disabled",
+          "path": "assets/buttons/btn_create_room_disabled.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_create_room_disabled/buttons__btn_create_room_disabled.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_launch_room_normal",
+          "path": "assets/buttons/btn_launch_room_normal.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_launch_room_normal/buttons__btn_launch_room_normal.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_launch_room_pressed",
+          "path": "assets/buttons/btn_launch_room_pressed.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_launch_room_pressed/buttons__btn_launch_room_pressed.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_launch_room_disabled",
+          "path": "assets/buttons/btn_launch_room_disabled.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_launch_room_disabled/buttons__btn_launch_room_disabled.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_mic_on_normal",
+          "path": "assets/buttons/btn_mic_on_normal.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_mic_on_normal/buttons__btn_mic_on_normal.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_mic_on_pressed",
+          "path": "assets/buttons/btn_mic_on_pressed.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_mic_on_pressed/buttons__btn_mic_on_pressed.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_mic_on_disabled",
+          "path": "assets/buttons/btn_mic_on_disabled.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_mic_on_disabled/buttons__btn_mic_on_disabled.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_mic_off_normal",
+          "path": "assets/buttons/btn_mic_off_normal.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_mic_off_normal/buttons__btn_mic_off_normal.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_mic_off_pressed",
+          "path": "assets/buttons/btn_mic_off_pressed.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_mic_off_pressed/buttons__btn_mic_off_pressed.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_mic_off_disabled",
+          "path": "assets/buttons/btn_mic_off_disabled.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_mic_off_disabled/buttons__btn_mic_off_disabled.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_speaker_normal",
+          "path": "assets/buttons/btn_speaker_normal.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_speaker_normal/buttons__btn_speaker_normal.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_speaker_pressed",
+          "path": "assets/buttons/btn_speaker_pressed.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_speaker_pressed/buttons__btn_speaker_pressed.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_speaker_disabled",
+          "path": "assets/buttons/btn_speaker_disabled.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_speaker_disabled/buttons__btn_speaker_disabled.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_gift_box_normal",
+          "path": "assets/buttons/btn_gift_box_normal.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_gift_box_normal/buttons__btn_gift_box_normal.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_gift_box_pressed",
+          "path": "assets/buttons/btn_gift_box_pressed.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_gift_box_pressed/buttons__btn_gift_box_pressed.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_gift_box_disabled",
+          "path": "assets/buttons/btn_gift_box_disabled.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_gift_box_disabled/buttons__btn_gift_box_disabled.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_send_gift_normal",
+          "path": "assets/buttons/btn_send_gift_normal.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_send_gift_normal/buttons__btn_send_gift_normal.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_send_gift_pressed",
+          "path": "assets/buttons/btn_send_gift_pressed.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_send_gift_pressed/buttons__btn_send_gift_pressed.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_send_gift_disabled",
+          "path": "assets/buttons/btn_send_gift_disabled.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_send_gift_disabled/buttons__btn_send_gift_disabled.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_send_text_normal",
+          "path": "assets/buttons/btn_send_text_normal.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_send_text_normal/buttons__btn_send_text_normal.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_send_text_pressed",
+          "path": "assets/buttons/btn_send_text_pressed.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_send_text_pressed/buttons__btn_send_text_pressed.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_send_text_disabled",
+          "path": "assets/buttons/btn_send_text_disabled.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_send_text_disabled/buttons__btn_send_text_disabled.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_leave_room_normal",
+          "path": "assets/buttons/btn_leave_room_normal.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_leave_room_normal/buttons__btn_leave_room_normal.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_leave_room_pressed",
+          "path": "assets/buttons/btn_leave_room_pressed.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_leave_room_pressed/buttons__btn_leave_room_pressed.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_leave_room_disabled",
+          "path": "assets/buttons/btn_leave_room_disabled.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_leave_room_disabled/buttons__btn_leave_room_disabled.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_edit_profile_normal",
+          "path": "assets/buttons/btn_edit_profile_normal.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_edit_profile_normal/buttons__btn_edit_profile_normal.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_edit_profile_pressed",
+          "path": "assets/buttons/btn_edit_profile_pressed.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_edit_profile_pressed/buttons__btn_edit_profile_pressed.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_edit_profile_disabled",
+          "path": "assets/buttons/btn_edit_profile_disabled.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_edit_profile_disabled/buttons__btn_edit_profile_disabled.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_wallet_normal",
+          "path": "assets/buttons/btn_wallet_normal.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_wallet_normal/buttons__btn_wallet_normal.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_wallet_pressed",
+          "path": "assets/buttons/btn_wallet_pressed.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_wallet_pressed/buttons__btn_wallet_pressed.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_wallet_disabled",
+          "path": "assets/buttons/btn_wallet_disabled.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_wallet_disabled/buttons__btn_wallet_disabled.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_tool_store_normal",
+          "path": "assets/buttons/btn_tool_store_normal.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_tool_store_normal/buttons__btn_tool_store_normal.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_tool_store_pressed",
+          "path": "assets/buttons/btn_tool_store_pressed.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_tool_store_pressed/buttons__btn_tool_store_pressed.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_tool_store_disabled",
+          "path": "assets/buttons/btn_tool_store_disabled.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_tool_store_disabled/buttons__btn_tool_store_disabled.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_logout_normal",
+          "path": "assets/buttons/btn_logout_normal.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_logout_normal/buttons__btn_logout_normal.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_logout_pressed",
+          "path": "assets/buttons/btn_logout_pressed.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_logout_pressed/buttons__btn_logout_pressed.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_logout_disabled",
+          "path": "assets/buttons/btn_logout_disabled.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_logout_disabled/buttons__btn_logout_disabled.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_buy_pack_normal",
+          "path": "assets/buttons/btn_buy_pack_normal.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_buy_pack_normal/buttons__btn_buy_pack_normal.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_buy_pack_pressed",
+          "path": "assets/buttons/btn_buy_pack_pressed.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_buy_pack_pressed/buttons__btn_buy_pack_pressed.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_buy_pack_disabled",
+          "path": "assets/buttons/btn_buy_pack_disabled.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_buy_pack_disabled/buttons__btn_buy_pack_disabled.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_convert_diamond_normal",
+          "path": "assets/buttons/btn_convert_diamond_normal.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_convert_diamond_normal/buttons__btn_convert_diamond_normal.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_convert_diamond_pressed",
+          "path": "assets/buttons/btn_convert_diamond_pressed.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_convert_diamond_pressed/buttons__btn_convert_diamond_pressed.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_convert_diamond_disabled",
+          "path": "assets/buttons/btn_convert_diamond_disabled.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_convert_diamond_disabled/buttons__btn_convert_diamond_disabled.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_withdraw_normal",
+          "path": "assets/buttons/btn_withdraw_normal.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_withdraw_normal/buttons__btn_withdraw_normal.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_withdraw_pressed",
+          "path": "assets/buttons/btn_withdraw_pressed.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_withdraw_pressed/buttons__btn_withdraw_pressed.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_withdraw_disabled",
+          "path": "assets/buttons/btn_withdraw_disabled.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_withdraw_disabled/buttons__btn_withdraw_disabled.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_send_ticket_normal",
+          "path": "assets/buttons/btn_send_ticket_normal.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_send_ticket_normal/buttons__btn_send_ticket_normal.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_send_ticket_pressed",
+          "path": "assets/buttons/btn_send_ticket_pressed.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_send_ticket_pressed/buttons__btn_send_ticket_pressed.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_send_ticket_disabled",
+          "path": "assets/buttons/btn_send_ticket_disabled.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_send_ticket_disabled/buttons__btn_send_ticket_disabled.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_report_normal",
+          "path": "assets/buttons/btn_report_normal.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_report_normal/buttons__btn_report_normal.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_report_pressed",
+          "path": "assets/buttons/btn_report_pressed.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_report_pressed/buttons__btn_report_pressed.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_report_disabled",
+          "path": "assets/buttons/btn_report_disabled.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_report_disabled/buttons__btn_report_disabled.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_delete_account_normal",
+          "path": "assets/buttons/btn_delete_account_normal.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_delete_account_normal/buttons__btn_delete_account_normal.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_delete_account_pressed",
+          "path": "assets/buttons/btn_delete_account_pressed.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_delete_account_pressed/buttons__btn_delete_account_pressed.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_delete_account_disabled",
+          "path": "assets/buttons/btn_delete_account_disabled.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_delete_account_disabled/buttons__btn_delete_account_disabled.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_create_family_normal",
+          "path": "assets/buttons/btn_create_family_normal.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_create_family_normal/buttons__btn_create_family_normal.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_create_family_pressed",
+          "path": "assets/buttons/btn_create_family_pressed.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_create_family_pressed/buttons__btn_create_family_pressed.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_create_family_disabled",
+          "path": "assets/buttons/btn_create_family_disabled.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_create_family_disabled/buttons__btn_create_family_disabled.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_join_family_normal",
+          "path": "assets/buttons/btn_join_family_normal.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_join_family_normal/buttons__btn_join_family_normal.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_join_family_pressed",
+          "path": "assets/buttons/btn_join_family_pressed.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_join_family_pressed/buttons__btn_join_family_pressed.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_join_family_disabled",
+          "path": "assets/buttons/btn_join_family_disabled.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_join_family_disabled/buttons__btn_join_family_disabled.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_start_pk_normal",
+          "path": "assets/buttons/btn_start_pk_normal.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_start_pk_normal/buttons__btn_start_pk_normal.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_start_pk_pressed",
+          "path": "assets/buttons/btn_start_pk_pressed.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_start_pk_pressed/buttons__btn_start_pk_pressed.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_start_pk_disabled",
+          "path": "assets/buttons/btn_start_pk_disabled.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_start_pk_disabled/buttons__btn_start_pk_disabled.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_support_host_normal",
+          "path": "assets/buttons/btn_support_host_normal.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_support_host_normal/buttons__btn_support_host_normal.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_support_host_pressed",
+          "path": "assets/buttons/btn_support_host_pressed.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_support_host_pressed/buttons__btn_support_host_pressed.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_support_host_disabled",
+          "path": "assets/buttons/btn_support_host_disabled.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_support_host_disabled/buttons__btn_support_host_disabled.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_open_luckbox_normal",
+          "path": "assets/buttons/btn_open_luckbox_normal.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_open_luckbox_normal/buttons__btn_open_luckbox_normal.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_open_luckbox_pressed",
+          "path": "assets/buttons/btn_open_luckbox_pressed.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_open_luckbox_pressed/buttons__btn_open_luckbox_pressed.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_open_luckbox_disabled",
+          "path": "assets/buttons/btn_open_luckbox_disabled.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_open_luckbox_disabled/buttons__btn_open_luckbox_disabled.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_games_menu_normal",
+          "path": "assets/buttons/btn_games_menu_normal.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_games_menu_normal/buttons__btn_games_menu_normal.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_games_menu_pressed",
+          "path": "assets/buttons/btn_games_menu_pressed.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_games_menu_pressed/buttons__btn_games_menu_pressed.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_games_menu_disabled",
+          "path": "assets/buttons/btn_games_menu_disabled.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_games_menu_disabled/buttons__btn_games_menu_disabled.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_invite_play_normal",
+          "path": "assets/buttons/btn_invite_play_normal.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_invite_play_normal/buttons__btn_invite_play_normal.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_invite_play_pressed",
+          "path": "assets/buttons/btn_invite_play_pressed.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_invite_play_pressed/buttons__btn_invite_play_pressed.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_invite_play_disabled",
+          "path": "assets/buttons/btn_invite_play_disabled.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_invite_play_disabled/buttons__btn_invite_play_disabled.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_convert_coins_normal",
+          "path": "assets/buttons/btn_convert_coins_normal.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_convert_coins_normal/buttons__btn_convert_coins_normal.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_convert_coins_pressed",
+          "path": "assets/buttons/btn_convert_coins_pressed.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_convert_coins_pressed/buttons__btn_convert_coins_pressed.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_convert_coins_disabled",
+          "path": "assets/buttons/btn_convert_coins_disabled.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_convert_coins_disabled/buttons__btn_convert_coins_disabled.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_broadcast_normal",
+          "path": "assets/buttons/btn_broadcast_normal.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_broadcast_normal/buttons__btn_broadcast_normal.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_broadcast_pressed",
+          "path": "assets/buttons/btn_broadcast_pressed.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_broadcast_pressed/buttons__btn_broadcast_pressed.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_broadcast_disabled",
+          "path": "assets/buttons/btn_broadcast_disabled.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_broadcast_disabled/buttons__btn_broadcast_disabled.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_block_device_normal",
+          "path": "assets/buttons/btn_block_device_normal.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_block_device_normal/buttons__btn_block_device_normal.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_block_device_pressed",
+          "path": "assets/buttons/btn_block_device_pressed.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_block_device_pressed/buttons__btn_block_device_pressed.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_block_device_disabled",
+          "path": "assets/buttons/btn_block_device_disabled.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_block_device_disabled/buttons__btn_block_device_disabled.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_approve_normal",
+          "path": "assets/buttons/btn_approve_normal.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_approve_normal/buttons__btn_approve_normal.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_approve_pressed",
+          "path": "assets/buttons/btn_approve_pressed.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_approve_pressed/buttons__btn_approve_pressed.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_approve_disabled",
+          "path": "assets/buttons/btn_approve_disabled.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_approve_disabled/buttons__btn_approve_disabled.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_reject_normal",
+          "path": "assets/buttons/btn_reject_normal.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_reject_normal/buttons__btn_reject_normal.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_reject_pressed",
+          "path": "assets/buttons/btn_reject_pressed.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_reject_pressed/buttons__btn_reject_pressed.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        },
+        {
+          "name": "btn_reject_disabled",
+          "path": "assets/buttons/btn_reject_disabled.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/buttons__btn_reject_disabled/buttons__btn_reject_disabled.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Every button in every screen (normal/pressed/disabled)"
+        }
+      ]
+    },
+    "backgrounds": {
+      "count": 10,
+      "usage": "Screen backgrounds (home, login, room, profile, wallet, leaderboard)",
+      "items": [
+        {
+          "name": "bg_home",
+          "path": "assets/backgrounds/bg_home.jpg",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/backgrounds__bg_home/backgrounds__bg_home.jpg",
+          "size": [
+            1080,
+            1920
+          ],
+          "usage": "Screen backgrounds (home, login, room, profile, wallet, leaderboard)"
+        },
+        {
+          "name": "bg_login",
+          "path": "assets/backgrounds/bg_login.jpg",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/backgrounds__bg_login/backgrounds__bg_login.jpg",
+          "size": [
+            1080,
+            1920
+          ],
+          "usage": "Screen backgrounds (home, login, room, profile, wallet, leaderboard)"
+        },
+        {
+          "name": "bg_room_city",
+          "path": "assets/backgrounds/bg_room_city.jpg",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/backgrounds__bg_room_city/backgrounds__bg_room_city.jpg",
+          "size": [
+            1080,
+            1920
+          ],
+          "usage": "Screen backgrounds (home, login, room, profile, wallet, leaderboard)"
+        },
+        {
+          "name": "bg_room_vip",
+          "path": "assets/backgrounds/bg_room_vip.jpg",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/backgrounds__bg_room_vip/backgrounds__bg_room_vip.jpg",
+          "size": [
+            1080,
+            1920
+          ],
+          "usage": "Screen backgrounds (home, login, room, profile, wallet, leaderboard)"
+        },
+        {
+          "name": "bg_room_party",
+          "path": "assets/backgrounds/bg_room_party.jpg",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/backgrounds__bg_room_party/backgrounds__bg_room_party.jpg",
+          "size": [
+            1080,
+            1920
+          ],
+          "usage": "Screen backgrounds (home, login, room, profile, wallet, leaderboard)"
+        },
+        {
+          "name": "bg_profile",
+          "path": "assets/backgrounds/bg_profile.jpg",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/backgrounds__bg_profile/backgrounds__bg_profile.jpg",
+          "size": [
+            1080,
+            1920
+          ],
+          "usage": "Screen backgrounds (home, login, room, profile, wallet, leaderboard)"
+        },
+        {
+          "name": "bg_wallet",
+          "path": "assets/backgrounds/bg_wallet.jpg",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/backgrounds__bg_wallet/backgrounds__bg_wallet.jpg",
+          "size": [
+            1080,
+            1920
+          ],
+          "usage": "Screen backgrounds (home, login, room, profile, wallet, leaderboard)"
+        },
+        {
+          "name": "bg_leaderboard",
+          "path": "assets/backgrounds/bg_leaderboard.jpg",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/backgrounds__bg_leaderboard/backgrounds__bg_leaderboard.jpg",
+          "size": [
+            1080,
+            1920
+          ],
+          "usage": "Screen backgrounds (home, login, room, profile, wallet, leaderboard)"
+        },
+        {
+          "name": "bg_neon_1",
+          "path": "assets/backgrounds/bg_neon_1.jpg",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/backgrounds__bg_neon_1/backgrounds__bg_neon_1.jpg",
+          "size": [
+            1080,
+            1920
+          ],
+          "usage": "Screen backgrounds (home, login, room, profile, wallet, leaderboard)"
+        },
+        {
+          "name": "bg_celebration",
+          "path": "assets/backgrounds/bg_celebration.jpg",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/backgrounds__bg_celebration/backgrounds__bg_celebration.jpg",
+          "size": [
+            1080,
+            1920
+          ],
+          "usage": "Screen backgrounds (home, login, room, profile, wallet, leaderboard)"
+        }
+      ]
+    },
+    "rooms": {
+      "count": 19,
+      "usage": "Voice room stage: mic seats, host frame, waveform, badges",
+      "items": [
+        {
+          "name": "seat_empty",
+          "path": "assets/rooms/seat_empty.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/rooms__seat_empty/rooms__seat_empty.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Voice room stage: mic seats, host frame, waveform, badges"
+        },
+        {
+          "name": "seat_busy",
+          "path": "assets/rooms/seat_busy.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/rooms__seat_busy/rooms__seat_busy.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Voice room stage: mic seats, host frame, waveform, badges"
+        },
+        {
+          "name": "seat_locked",
+          "path": "assets/rooms/seat_locked.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/rooms__seat_locked/rooms__seat_locked.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Voice room stage: mic seats, host frame, waveform, badges"
+        },
+        {
+          "name": "seat_muted",
+          "path": "assets/rooms/seat_muted.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/rooms__seat_muted/rooms__seat_muted.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Voice room stage: mic seats, host frame, waveform, badges"
+        },
+        {
+          "name": "host_frame",
+          "path": "assets/rooms/host_frame.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/rooms__host_frame/rooms__host_frame.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Voice room stage: mic seats, host frame, waveform, badges"
+        },
+        {
+          "name": "host_frame_vip",
+          "path": "assets/rooms/host_frame_vip.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/rooms__host_frame_vip/rooms__host_frame_vip.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Voice room stage: mic seats, host frame, waveform, badges"
+        },
+        {
+          "name": "aura_ring",
+          "path": "assets/rooms/aura_ring.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/rooms__aura_ring/rooms__aura_ring.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Voice room stage: mic seats, host frame, waveform, badges"
+        },
+        {
+          "name": "speaker_ring",
+          "path": "assets/rooms/speaker_ring.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/rooms__speaker_ring/rooms__speaker_ring.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Voice room stage: mic seats, host frame, waveform, badges"
+        },
+        {
+          "name": "voice_waveform",
+          "path": "assets/rooms/voice_waveform.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/rooms__voice_waveform/rooms__voice_waveform.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Voice room stage: mic seats, host frame, waveform, badges"
+        },
+        {
+          "name": "hand_badge",
+          "path": "assets/rooms/hand_badge.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/rooms__hand_badge/rooms__hand_badge.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Voice room stage: mic seats, host frame, waveform, badges"
+        },
+        {
+          "name": "mic_btn",
+          "path": "assets/rooms/mic_btn.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/rooms__mic_btn/rooms__mic_btn.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Voice room stage: mic seats, host frame, waveform, badges"
+        },
+        {
+          "name": "chat_btn",
+          "path": "assets/rooms/chat_btn.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/rooms__chat_btn/rooms__chat_btn.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Voice room stage: mic seats, host frame, waveform, badges"
+        },
+        {
+          "name": "gift_btn",
+          "path": "assets/rooms/gift_btn.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/rooms__gift_btn/rooms__gift_btn.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Voice room stage: mic seats, host frame, waveform, badges"
+        },
+        {
+          "name": "coin_pouch",
+          "path": "assets/rooms/coin_pouch.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/rooms__coin_pouch/rooms__coin_pouch.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Voice room stage: mic seats, host frame, waveform, badges"
+        },
+        {
+          "name": "family_frame",
+          "path": "assets/rooms/family_frame.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/rooms__family_frame/rooms__family_frame.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Voice room stage: mic seats, host frame, waveform, badges"
+        },
+        {
+          "name": "stage_platform",
+          "path": "assets/rooms/stage_platform.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/rooms__stage_platform/rooms__stage_platform.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Voice room stage: mic seats, host frame, waveform, badges"
+        },
+        {
+          "name": "room_card_frame",
+          "path": "assets/rooms/room_card_frame.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/rooms__room_card_frame/rooms__room_card_frame.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Voice room stage: mic seats, host frame, waveform, badges"
+        },
+        {
+          "name": "room_live_badge",
+          "path": "assets/rooms/room_live_badge.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/rooms__room_live_badge/rooms__room_live_badge.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Voice room stage: mic seats, host frame, waveform, badges"
+        },
+        {
+          "name": "room_lock_badge",
+          "path": "assets/rooms/room_lock_badge.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/rooms__room_lock_badge/rooms__room_lock_badge.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Voice room stage: mic seats, host frame, waveform, badges"
+        }
+      ]
+    },
+    "gifts": {
+      "count": 42,
+      "usage": "Gift panel + gift animations in the voice room",
+      "items": [
+        {
+          "name": "rose",
+          "path": "assets/gifts/rose.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/gifts__rose/gifts__rose.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Gift panel + gift animations in the voice room"
+        },
+        {
+          "name": "heart",
+          "path": "assets/gifts/heart.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/gifts__heart/gifts__heart.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Gift panel + gift animations in the voice room"
+        },
+        {
+          "name": "chocolate",
+          "path": "assets/gifts/chocolate.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/gifts__chocolate/gifts__chocolate.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Gift panel + gift animations in the voice room"
+        },
+        {
+          "name": "teddy",
+          "path": "assets/gifts/teddy.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/gifts__teddy/gifts__teddy.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Gift panel + gift animations in the voice room"
+        },
+        {
+          "name": "balloon",
+          "path": "assets/gifts/balloon.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/gifts__balloon/gifts__balloon.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Gift panel + gift animations in the voice room"
+        },
+        {
+          "name": "cake",
+          "path": "assets/gifts/cake.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/gifts__cake/gifts__cake.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Gift panel + gift animations in the voice room"
+        },
+        {
+          "name": "coffee",
+          "path": "assets/gifts/coffee.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/gifts__coffee/gifts__coffee.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Gift panel + gift animations in the voice room"
+        },
+        {
+          "name": "perfume",
+          "path": "assets/gifts/perfume.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/gifts__perfume/gifts__perfume.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Gift panel + gift animations in the voice room"
+        },
+        {
+          "name": "ring",
+          "path": "assets/gifts/ring.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/gifts__ring/gifts__ring.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Gift panel + gift animations in the voice room"
+        },
+        {
+          "name": "watch",
+          "path": "assets/gifts/watch.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/gifts__watch/gifts__watch.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Gift panel + gift animations in the voice room"
+        },
+        {
+          "name": "guitar",
+          "path": "assets/gifts/guitar.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/gifts__guitar/gifts__guitar.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Gift panel + gift animations in the voice room"
+        },
+        {
+          "name": "microphone",
+          "path": "assets/gifts/microphone.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/gifts__microphone/gifts__microphone.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Gift panel + gift animations in the voice room"
+        },
+        {
+          "name": "crown",
+          "path": "assets/gifts/crown.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/gifts__crown/gifts__crown.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Gift panel + gift animations in the voice room"
+        },
+        {
+          "name": "castle",
+          "path": "assets/gifts/castle.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/gifts__castle/gifts__castle.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Gift panel + gift animations in the voice room"
+        },
+        {
+          "name": "yacht",
+          "path": "assets/gifts/yacht.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/gifts__yacht/gifts__yacht.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Gift panel + gift animations in the voice room"
+        },
+        {
+          "name": "car",
+          "path": "assets/gifts/car.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/gifts__car/gifts__car.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Gift panel + gift animations in the voice room"
+        },
+        {
+          "name": "plane",
+          "path": "assets/gifts/plane.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/gifts__plane/gifts__plane.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Gift panel + gift animations in the voice room"
+        },
+        {
+          "name": "rocket",
+          "path": "assets/gifts/rocket.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/gifts__rocket/gifts__rocket.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Gift panel + gift animations in the voice room"
+        },
+        {
+          "name": "dragon",
+          "path": "assets/gifts/dragon.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/gifts__dragon/gifts__dragon.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Gift panel + gift animations in the voice room"
+        },
+        {
+          "name": "lion",
+          "path": "assets/gifts/lion.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/gifts__lion/gifts__lion.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Gift panel + gift animations in the voice room"
+        },
+        {
+          "name": "peacock",
+          "path": "assets/gifts/peacock.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/gifts__peacock/gifts__peacock.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Gift panel + gift animations in the voice room"
+        },
+        {
+          "name": "whale",
+          "path": "assets/gifts/whale.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/gifts__whale/gifts__whale.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Gift panel + gift animations in the voice room"
+        },
+        {
+          "name": "galaxy",
+          "path": "assets/gifts/galaxy.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/gifts__galaxy/gifts__galaxy.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Gift panel + gift animations in the voice room"
+        },
+        {
+          "name": "firework",
+          "path": "assets/gifts/firework.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/gifts__firework/gifts__firework.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Gift panel + gift animations in the voice room"
+        },
+        {
+          "name": "genie",
+          "path": "assets/gifts/genie.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/gifts__genie/gifts__genie.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Gift panel + gift animations in the voice room"
+        },
+        {
+          "name": "turtle",
+          "path": "assets/gifts/turtle.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/gifts__turtle/gifts__turtle.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Gift panel + gift animations in the voice room"
+        },
+        {
+          "name": "cat",
+          "path": "assets/gifts/cat.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/gifts__cat/gifts__cat.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Gift panel + gift animations in the voice room"
+        },
+        {
+          "name": "unicorn",
+          "path": "assets/gifts/unicorn.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/gifts__unicorn/gifts__unicorn.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Gift panel + gift animations in the voice room"
+        },
+        {
+          "name": "phoenix",
+          "path": "assets/gifts/phoenix.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/gifts__phoenix/gifts__phoenix.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Gift panel + gift animations in the voice room"
+        },
+        {
+          "name": "diamond_gem",
+          "path": "assets/gifts/diamond_gem.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/gifts__diamond_gem/gifts__diamond_gem.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Gift panel + gift animations in the voice room"
+        },
+        {
+          "name": "treasure",
+          "path": "assets/gifts/treasure.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/gifts__treasure/gifts__treasure.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Gift panel + gift animations in the voice room"
+        },
+        {
+          "name": "mystery_box",
+          "path": "assets/gifts/mystery_box.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/gifts__mystery_box/gifts__mystery_box.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Gift panel + gift animations in the voice room"
+        },
+        {
+          "name": "red_envelope",
+          "path": "assets/gifts/red_envelope.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/gifts__red_envelope/gifts__red_envelope.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Gift panel + gift animations in the voice room"
+        },
+        {
+          "name": "star_shower",
+          "path": "assets/gifts/star_shower.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/gifts__star_shower/gifts__star_shower.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Gift panel + gift animations in the voice room"
+        },
+        {
+          "name": "angel_wings",
+          "path": "assets/gifts/angel_wings.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/gifts__angel_wings/gifts__angel_wings.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Gift panel + gift animations in the voice room"
+        },
+        {
+          "name": "hot_air_balloon",
+          "path": "assets/gifts/hot_air_balloon.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/gifts__hot_air_balloon/gifts__hot_air_balloon.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Gift panel + gift animations in the voice room"
+        },
+        {
+          "name": "crystal_ball",
+          "path": "assets/gifts/crystal_ball.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/gifts__crystal_ball/gifts__crystal_ball.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Gift panel + gift animations in the voice room"
+        },
+        {
+          "name": "golden_key",
+          "path": "assets/gifts/golden_key.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/gifts__golden_key/gifts__golden_key.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Gift panel + gift animations in the voice room"
+        },
+        {
+          "name": "horseshoe",
+          "path": "assets/gifts/horseshoe.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/gifts__horseshoe/gifts__horseshoe.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Gift panel + gift animations in the voice room"
+        },
+        {
+          "name": "clover",
+          "path": "assets/gifts/clover.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/gifts__clover/gifts__clover.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Gift panel + gift animations in the voice room"
+        },
+        {
+          "name": "lucky_coin",
+          "path": "assets/gifts/lucky_coin.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/gifts__lucky_coin/gifts__lucky_coin.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Gift panel + gift animations in the voice room"
+        },
+        {
+          "name": "wish_lamp",
+          "path": "assets/gifts/wish_lamp.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/gifts__wish_lamp/gifts__wish_lamp.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Gift panel + gift animations in the voice room"
+        }
+      ]
+    },
+    "games": {
+      "count": 14,
+      "usage": "Mini-games panel (Ludo, Domino, Uno, fortune wheel)",
+      "items": [
+        {
+          "name": "ludo_board",
+          "path": "assets/games/ludo_board.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/games__ludo_board/games__ludo_board.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Mini-games panel (Ludo, Domino, Uno, fortune wheel)"
+        },
+        {
+          "name": "ludo_dice",
+          "path": "assets/games/ludo_dice.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/games__ludo_dice/games__ludo_dice.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Mini-games panel (Ludo, Domino, Uno, fortune wheel)"
+        },
+        {
+          "name": "ludo_pawn",
+          "path": "assets/games/ludo_pawn.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/games__ludo_pawn/games__ludo_pawn.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Mini-games panel (Ludo, Domino, Uno, fortune wheel)"
+        },
+        {
+          "name": "ludo_tokens",
+          "path": "assets/games/ludo_tokens.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/games__ludo_tokens/games__ludo_tokens.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Mini-games panel (Ludo, Domino, Uno, fortune wheel)"
+        },
+        {
+          "name": "domino",
+          "path": "assets/games/domino.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/games__domino/games__domino.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Mini-games panel (Ludo, Domino, Uno, fortune wheel)"
+        },
+        {
+          "name": "domino_tile",
+          "path": "assets/games/domino_tile.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/games__domino_tile/games__domino_tile.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Mini-games panel (Ludo, Domino, Uno, fortune wheel)"
+        },
+        {
+          "name": "uno_card",
+          "path": "assets/games/uno_card.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/games__uno_card/games__uno_card.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Mini-games panel (Ludo, Domino, Uno, fortune wheel)"
+        },
+        {
+          "name": "uno_deck",
+          "path": "assets/games/uno_deck.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/games__uno_deck/games__uno_deck.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Mini-games panel (Ludo, Domino, Uno, fortune wheel)"
+        },
+        {
+          "name": "wheel",
+          "path": "assets/games/wheel.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/games__wheel/games__wheel.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Mini-games panel (Ludo, Domino, Uno, fortune wheel)"
+        },
+        {
+          "name": "wheel_pointer",
+          "path": "assets/games/wheel_pointer.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/games__wheel_pointer/games__wheel_pointer.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Mini-games panel (Ludo, Domino, Uno, fortune wheel)"
+        },
+        {
+          "name": "game_coins",
+          "path": "assets/games/game_coins.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/games__game_coins/games__game_coins.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Mini-games panel (Ludo, Domino, Uno, fortune wheel)"
+        },
+        {
+          "name": "game_trophy",
+          "path": "assets/games/game_trophy.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/games__game_trophy/games__game_trophy.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Mini-games panel (Ludo, Domino, Uno, fortune wheel)"
+        },
+        {
+          "name": "game_controller",
+          "path": "assets/games/game_controller.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/games__game_controller/games__game_controller.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Mini-games panel (Ludo, Domino, Uno, fortune wheel)"
+        },
+        {
+          "name": "game_dice_pair",
+          "path": "assets/games/game_dice_pair.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/games__game_dice_pair/games__game_dice_pair.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Mini-games panel (Ludo, Domino, Uno, fortune wheel)"
+        }
+      ]
+    },
+    "vip": {
+      "count": 11,
+      "usage": "VIP entry alerts and VIP badges",
+      "items": [
+        {
+          "name": "vip_car",
+          "path": "assets/vip/vip_car.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/vip__vip_car/vip__vip_car.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "VIP entry alerts and VIP badges"
+        },
+        {
+          "name": "vip_limo",
+          "path": "assets/vip/vip_limo.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/vip__vip_limo/vip__vip_limo.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "VIP entry alerts and VIP badges"
+        },
+        {
+          "name": "vip_boat",
+          "path": "assets/vip/vip_boat.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/vip__vip_boat/vip__vip_boat.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "VIP entry alerts and VIP badges"
+        },
+        {
+          "name": "vip_plane",
+          "path": "assets/vip/vip_plane.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/vip__vip_plane/vip__vip_plane.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "VIP entry alerts and VIP badges"
+        },
+        {
+          "name": "vip_lion",
+          "path": "assets/vip/vip_lion.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/vip__vip_lion/vip__vip_lion.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "VIP entry alerts and VIP badges"
+        },
+        {
+          "name": "vip_peacock",
+          "path": "assets/vip/vip_peacock.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/vip__vip_peacock/vip__vip_peacock.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "VIP entry alerts and VIP badges"
+        },
+        {
+          "name": "vip_carpet",
+          "path": "assets/vip/vip_carpet.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/vip__vip_carpet/vip__vip_carpet.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "VIP entry alerts and VIP badges"
+        },
+        {
+          "name": "vip_dragon",
+          "path": "assets/vip/vip_dragon.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/vip__vip_dragon/vip__vip_dragon.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "VIP entry alerts and VIP badges"
+        },
+        {
+          "name": "royal_crown",
+          "path": "assets/vip/royal_crown.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/vip__royal_crown/vip__royal_crown.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "VIP entry alerts and VIP badges"
+        },
+        {
+          "name": "vip_badge_gem",
+          "path": "assets/vip/vip_badge_gem.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/vip__vip_badge_gem/vip__vip_badge_gem.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "VIP entry alerts and VIP badges"
+        },
+        {
+          "name": "vip_entry_effect",
+          "path": "assets/vip/vip_entry_effect.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/vip__vip_entry_effect/vip__vip_entry_effect.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "VIP entry alerts and VIP badges"
+        }
+      ]
+    },
+    "frames": {
+      "count": 13,
+      "usage": "Profile avatar frames (tool store)",
+      "items": [
+        {
+          "name": "frame_gold",
+          "path": "assets/frames/frame_gold.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/frames__frame_gold/frames__frame_gold.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Profile avatar frames (tool store)"
+        },
+        {
+          "name": "frame_silver",
+          "path": "assets/frames/frame_silver.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/frames__frame_silver/frames__frame_silver.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Profile avatar frames (tool store)"
+        },
+        {
+          "name": "frame_bronze",
+          "path": "assets/frames/frame_bronze.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/frames__frame_bronze/frames__frame_bronze.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Profile avatar frames (tool store)"
+        },
+        {
+          "name": "frame_fire",
+          "path": "assets/frames/frame_fire.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/frames__frame_fire/frames__frame_fire.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Profile avatar frames (tool store)"
+        },
+        {
+          "name": "frame_ice",
+          "path": "assets/frames/frame_ice.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/frames__frame_ice/frames__frame_ice.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Profile avatar frames (tool store)"
+        },
+        {
+          "name": "frame_galaxy",
+          "path": "assets/frames/frame_galaxy.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/frames__frame_galaxy/frames__frame_galaxy.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Profile avatar frames (tool store)"
+        },
+        {
+          "name": "frame_neon",
+          "path": "assets/frames/frame_neon.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/frames__frame_neon/frames__frame_neon.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Profile avatar frames (tool store)"
+        },
+        {
+          "name": "frame_diamond",
+          "path": "assets/frames/frame_diamond.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/frames__frame_diamond/frames__frame_diamond.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Profile avatar frames (tool store)"
+        },
+        {
+          "name": "frame_flower",
+          "path": "assets/frames/frame_flower.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/frames__frame_flower/frames__frame_flower.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Profile avatar frames (tool store)"
+        },
+        {
+          "name": "frame_angel",
+          "path": "assets/frames/frame_angel.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/frames__frame_angel/frames__frame_angel.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Profile avatar frames (tool store)"
+        },
+        {
+          "name": "frame_dragon",
+          "path": "assets/frames/frame_dragon.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/frames__frame_dragon/frames__frame_dragon.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Profile avatar frames (tool store)"
+        },
+        {
+          "name": "frame_royal",
+          "path": "assets/frames/frame_royal.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/frames__frame_royal/frames__frame_royal.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Profile avatar frames (tool store)"
+        },
+        {
+          "name": "frame_cyber",
+          "path": "assets/frames/frame_cyber.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/frames__frame_cyber/frames__frame_cyber.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Profile avatar frames (tool store)"
+        }
+      ]
+    },
+    "bubbles": {
+      "count": 6,
+      "usage": "Chat message bubbles in room + DM",
+      "items": [
+        {
+          "name": "bubble_in",
+          "path": "assets/bubbles/bubble_in.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/bubbles__bubble_in/bubbles__bubble_in.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Chat message bubbles in room + DM"
+        },
+        {
+          "name": "bubble_out",
+          "path": "assets/bubbles/bubble_out.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/bubbles__bubble_out/bubbles__bubble_out.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Chat message bubbles in room + DM"
+        },
+        {
+          "name": "bubble_gift",
+          "path": "assets/bubbles/bubble_gift.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/bubbles__bubble_gift/bubbles__bubble_gift.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Chat message bubbles in room + DM"
+        },
+        {
+          "name": "bubble_system",
+          "path": "assets/bubbles/bubble_system.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/bubbles__bubble_system/bubbles__bubble_system.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Chat message bubbles in room + DM"
+        },
+        {
+          "name": "bubble_voice",
+          "path": "assets/bubbles/bubble_voice.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/bubbles__bubble_voice/bubbles__bubble_voice.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Chat message bubbles in room + DM"
+        },
+        {
+          "name": "bubble_danmaku",
+          "path": "assets/bubbles/bubble_danmaku.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/bubbles__bubble_danmaku/bubbles__bubble_danmaku.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Chat message bubbles in room + DM"
+        }
+      ]
+    },
+    "family": {
+      "count": 9,
+      "usage": "Families/tribes crests and badges",
+      "items": [
+        {
+          "name": "crest_lion",
+          "path": "assets/family/crest_lion.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/family__crest_lion/family__crest_lion.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Families/tribes crests and badges"
+        },
+        {
+          "name": "crest_eagle",
+          "path": "assets/family/crest_eagle.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/family__crest_eagle/family__crest_eagle.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Families/tribes crests and badges"
+        },
+        {
+          "name": "crest_wolf",
+          "path": "assets/family/crest_wolf.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/family__crest_wolf/family__crest_wolf.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Families/tribes crests and badges"
+        },
+        {
+          "name": "crest_dragon",
+          "path": "assets/family/crest_dragon.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/family__crest_dragon/family__crest_dragon.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Families/tribes crests and badges"
+        },
+        {
+          "name": "crest_phoenix",
+          "path": "assets/family/crest_phoenix.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/family__crest_phoenix/family__crest_phoenix.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Families/tribes crests and badges"
+        },
+        {
+          "name": "badge_crown",
+          "path": "assets/family/badge_crown.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/family__badge_crown/family__badge_crown.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Families/tribes crests and badges"
+        },
+        {
+          "name": "badge_star",
+          "path": "assets/family/badge_star.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/family__badge_star/family__badge_star.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Families/tribes crests and badges"
+        },
+        {
+          "name": "badge_flame",
+          "path": "assets/family/badge_flame.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/family__badge_flame/family__badge_flame.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Families/tribes crests and badges"
+        },
+        {
+          "name": "badge_gem",
+          "path": "assets/family/badge_gem.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/family__badge_gem/family__badge_gem.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Families/tribes crests and badges"
+        }
+      ]
+    },
+    "pk": {
+      "count": 11,
+      "usage": "PK battle screen: progress bar, win/lose effects, tomato/egg",
+      "items": [
+        {
+          "name": "pk_progress_bar",
+          "path": "assets/pk/pk_progress_bar.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/pk__pk_progress_bar/pk__pk_progress_bar.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "PK battle screen: progress bar, win/lose effects, tomato/egg"
+        },
+        {
+          "name": "pk_bar_red",
+          "path": "assets/pk/pk_bar_red.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/pk__pk_bar_red/pk__pk_bar_red.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "PK battle screen: progress bar, win/lose effects, tomato/egg"
+        },
+        {
+          "name": "pk_bar_blue",
+          "path": "assets/pk/pk_bar_blue.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/pk__pk_bar_blue/pk__pk_bar_blue.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "PK battle screen: progress bar, win/lose effects, tomato/egg"
+        },
+        {
+          "name": "pk_victory",
+          "path": "assets/pk/pk_victory.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/pk__pk_victory/pk__pk_victory.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "PK battle screen: progress bar, win/lose effects, tomato/egg"
+        },
+        {
+          "name": "pk_defeat",
+          "path": "assets/pk/pk_defeat.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/pk__pk_defeat/pk__pk_defeat.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "PK battle screen: progress bar, win/lose effects, tomato/egg"
+        },
+        {
+          "name": "tomato",
+          "path": "assets/pk/tomato.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/pk__tomato/pk__tomato.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "PK battle screen: progress bar, win/lose effects, tomato/egg"
+        },
+        {
+          "name": "egg",
+          "path": "assets/pk/egg.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/pk__egg/pk__egg.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "PK battle screen: progress bar, win/lose effects, tomato/egg"
+        },
+        {
+          "name": "splat_red",
+          "path": "assets/pk/splat_red.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/pk__splat_red/pk__splat_red.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "PK battle screen: progress bar, win/lose effects, tomato/egg"
+        },
+        {
+          "name": "splat_blue",
+          "path": "assets/pk/splat_blue.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/pk__splat_blue/pk__splat_blue.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "PK battle screen: progress bar, win/lose effects, tomato/egg"
+        },
+        {
+          "name": "pk_swords",
+          "path": "assets/pk/pk_swords.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/pk__pk_swords/pk__pk_swords.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "PK battle screen: progress bar, win/lose effects, tomato/egg"
+        },
+        {
+          "name": "pk_timer",
+          "path": "assets/pk/pk_timer.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/pk__pk_timer/pk__pk_timer.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "PK battle screen: progress bar, win/lose effects, tomato/egg"
+        }
+      ]
+    },
+    "luckbox": {
+      "count": 11,
+      "usage": "Lucky box / red envelope feature",
+      "items": [
+        {
+          "name": "luckbox_closed",
+          "path": "assets/luckbox/luckbox_closed.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/luckbox__luckbox_closed/luckbox__luckbox_closed.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Lucky box / red envelope feature"
+        },
+        {
+          "name": "luckbox_open",
+          "path": "assets/luckbox/luckbox_open.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/luckbox__luckbox_open/luckbox__luckbox_open.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Lucky box / red envelope feature"
+        },
+        {
+          "name": "luckbox_timer",
+          "path": "assets/luckbox/luckbox_timer.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/luckbox__luckbox_timer/luckbox__luckbox_timer.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Lucky box / red envelope feature"
+        },
+        {
+          "name": "lucky_envelope",
+          "path": "assets/luckbox/lucky_envelope.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/luckbox__lucky_envelope/luckbox__lucky_envelope.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Lucky box / red envelope feature"
+        },
+        {
+          "name": "golden_key",
+          "path": "assets/luckbox/golden_key.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/luckbox__golden_key/luckbox__golden_key.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Lucky box / red envelope feature"
+        },
+        {
+          "name": "coin_stack",
+          "path": "assets/luckbox/coin_stack.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/luckbox__coin_stack/luckbox__coin_stack.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Lucky box / red envelope feature"
+        },
+        {
+          "name": "big_diamond",
+          "path": "assets/luckbox/big_diamond.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/luckbox__big_diamond/luckbox__big_diamond.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Lucky box / red envelope feature"
+        },
+        {
+          "name": "horseshoe_clover",
+          "path": "assets/luckbox/horseshoe_clover.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/luckbox__horseshoe_clover/luckbox__horseshoe_clover.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Lucky box / red envelope feature"
+        },
+        {
+          "name": "mystery_gift",
+          "path": "assets/luckbox/mystery_gift.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/luckbox__mystery_gift/luckbox__mystery_gift.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Lucky box / red envelope feature"
+        },
+        {
+          "name": "jackpot_star",
+          "path": "assets/luckbox/jackpot_star.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/luckbox__jackpot_star/luckbox__jackpot_star.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Lucky box / red envelope feature"
+        },
+        {
+          "name": "envelope_open",
+          "path": "assets/luckbox/envelope_open.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/luckbox__envelope_open/luckbox__envelope_open.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Lucky box / red envelope feature"
+        }
+      ]
+    },
+    "ui": {
+      "count": 21,
+      "usage": "UI kit: inputs, tabs, cards, toasts, status dots, switches",
+      "items": [
+        {
+          "name": "input_field",
+          "path": "assets/ui/input_field.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/ui__input_field/ui__input_field.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "UI kit: inputs, tabs, cards, toasts, status dots, switches"
+        },
+        {
+          "name": "input_focused",
+          "path": "assets/ui/input_focused.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/ui__input_focused/ui__input_focused.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "UI kit: inputs, tabs, cards, toasts, status dots, switches"
+        },
+        {
+          "name": "input_error",
+          "path": "assets/ui/input_error.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/ui__input_error/ui__input_error.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "UI kit: inputs, tabs, cards, toasts, status dots, switches"
+        },
+        {
+          "name": "card_glass",
+          "path": "assets/ui/card_glass.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/ui__card_glass/ui__card_glass.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "UI kit: inputs, tabs, cards, toasts, status dots, switches"
+        },
+        {
+          "name": "dialog_card",
+          "path": "assets/ui/dialog_card.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/ui__dialog_card/ui__dialog_card.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "UI kit: inputs, tabs, cards, toasts, status dots, switches"
+        },
+        {
+          "name": "sheet_handle",
+          "path": "assets/ui/sheet_handle.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/ui__sheet_handle/ui__sheet_handle.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "UI kit: inputs, tabs, cards, toasts, status dots, switches"
+        },
+        {
+          "name": "tab_active",
+          "path": "assets/ui/tab_active.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/ui__tab_active/ui__tab_active.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "UI kit: inputs, tabs, cards, toasts, status dots, switches"
+        },
+        {
+          "name": "tab_inactive",
+          "path": "assets/ui/tab_inactive.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/ui__tab_inactive/ui__tab_inactive.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "UI kit: inputs, tabs, cards, toasts, status dots, switches"
+        },
+        {
+          "name": "progress_bar",
+          "path": "assets/ui/progress_bar.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/ui__progress_bar/ui__progress_bar.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "UI kit: inputs, tabs, cards, toasts, status dots, switches"
+        },
+        {
+          "name": "loading_ring",
+          "path": "assets/ui/loading_ring.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/ui__loading_ring/ui__loading_ring.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "UI kit: inputs, tabs, cards, toasts, status dots, switches"
+        },
+        {
+          "name": "toast_success",
+          "path": "assets/ui/toast_success.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/ui__toast_success/ui__toast_success.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "UI kit: inputs, tabs, cards, toasts, status dots, switches"
+        },
+        {
+          "name": "toast_error",
+          "path": "assets/ui/toast_error.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/ui__toast_error/ui__toast_error.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "UI kit: inputs, tabs, cards, toasts, status dots, switches"
+        },
+        {
+          "name": "status_online",
+          "path": "assets/ui/status_online.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/ui__status_online/ui__status_online.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "UI kit: inputs, tabs, cards, toasts, status dots, switches"
+        },
+        {
+          "name": "status_offline",
+          "path": "assets/ui/status_offline.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/ui__status_offline/ui__status_offline.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "UI kit: inputs, tabs, cards, toasts, status dots, switches"
+        },
+        {
+          "name": "status_in_room",
+          "path": "assets/ui/status_in_room.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/ui__status_in_room/ui__status_in_room.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "UI kit: inputs, tabs, cards, toasts, status dots, switches"
+        },
+        {
+          "name": "badge_count",
+          "path": "assets/ui/badge_count.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/ui__badge_count/ui__badge_count.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "UI kit: inputs, tabs, cards, toasts, status dots, switches"
+        },
+        {
+          "name": "divider",
+          "path": "assets/ui/divider.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/ui__divider/ui__divider.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "UI kit: inputs, tabs, cards, toasts, status dots, switches"
+        },
+        {
+          "name": "checkbox_on",
+          "path": "assets/ui/checkbox_on.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/ui__checkbox_on/ui__checkbox_on.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "UI kit: inputs, tabs, cards, toasts, status dots, switches"
+        },
+        {
+          "name": "checkbox_off",
+          "path": "assets/ui/checkbox_off.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/ui__checkbox_off/ui__checkbox_off.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "UI kit: inputs, tabs, cards, toasts, status dots, switches"
+        },
+        {
+          "name": "switch_on",
+          "path": "assets/ui/switch_on.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/ui__switch_on/ui__switch_on.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "UI kit: inputs, tabs, cards, toasts, status dots, switches"
+        },
+        {
+          "name": "switch_off",
+          "path": "assets/ui/switch_off.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/ui__switch_off/ui__switch_off.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "UI kit: inputs, tabs, cards, toasts, status dots, switches"
+        }
+      ]
+    },
+    "effects": {
+      "count": 12,
+      "usage": "Full-screen gift/celebration effects",
+      "items": [
+        {
+          "name": "coin_burst",
+          "path": "assets/effects/coin_burst.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/effects__coin_burst/effects__coin_burst.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Full-screen gift/celebration effects"
+        },
+        {
+          "name": "confetti_burst",
+          "path": "assets/effects/confetti_burst.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/effects__confetti_burst/effects__confetti_burst.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Full-screen gift/celebration effects"
+        },
+        {
+          "name": "heart_burst",
+          "path": "assets/effects/heart_burst.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/effects__heart_burst/effects__heart_burst.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Full-screen gift/celebration effects"
+        },
+        {
+          "name": "star_burst",
+          "path": "assets/effects/star_burst.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/effects__star_burst/effects__star_burst.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Full-screen gift/celebration effects"
+        },
+        {
+          "name": "sparkle_burst",
+          "path": "assets/effects/sparkle_burst.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/effects__sparkle_burst/effects__sparkle_burst.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Full-screen gift/celebration effects"
+        },
+        {
+          "name": "ring_shockwave",
+          "path": "assets/effects/ring_shockwave.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/effects__ring_shockwave/effects__ring_shockwave.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Full-screen gift/celebration effects"
+        },
+        {
+          "name": "light_orb",
+          "path": "assets/effects/light_orb.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/effects__light_orb/effects__light_orb.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Full-screen gift/celebration effects"
+        },
+        {
+          "name": "smoke_puff",
+          "path": "assets/effects/smoke_puff.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/effects__smoke_puff/effects__smoke_puff.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Full-screen gift/celebration effects"
+        },
+        {
+          "name": "glow_flare",
+          "path": "assets/effects/glow_flare.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/effects__glow_flare/effects__glow_flare.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Full-screen gift/celebration effects"
+        },
+        {
+          "name": "magic_circle",
+          "path": "assets/effects/magic_circle.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/effects__magic_circle/effects__magic_circle.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Full-screen gift/celebration effects"
+        },
+        {
+          "name": "lightning",
+          "path": "assets/effects/lightning.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/effects__lightning/effects__lightning.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Full-screen gift/celebration effects"
+        },
+        {
+          "name": "bubble_pop",
+          "path": "assets/effects/bubble_pop.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/effects__bubble_pop/effects__bubble_pop.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Full-screen gift/celebration effects"
+        }
+      ]
+    },
+    "avatars": {
+      "count": 8,
+      "usage": "Default avatar gallery",
+      "items": [
+        {
+          "name": "avatar_1",
+          "path": "assets/avatars/avatar_1.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/avatars__avatar_1/avatars__avatar_1.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Default avatar gallery"
+        },
+        {
+          "name": "avatar_2",
+          "path": "assets/avatars/avatar_2.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/avatars__avatar_2/avatars__avatar_2.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Default avatar gallery"
+        },
+        {
+          "name": "avatar_3",
+          "path": "assets/avatars/avatar_3.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/avatars__avatar_3/avatars__avatar_3.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Default avatar gallery"
+        },
+        {
+          "name": "avatar_4",
+          "path": "assets/avatars/avatar_4.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/avatars__avatar_4/avatars__avatar_4.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Default avatar gallery"
+        },
+        {
+          "name": "avatar_5",
+          "path": "assets/avatars/avatar_5.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/avatars__avatar_5/avatars__avatar_5.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Default avatar gallery"
+        },
+        {
+          "name": "avatar_6",
+          "path": "assets/avatars/avatar_6.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/avatars__avatar_6/avatars__avatar_6.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Default avatar gallery"
+        },
+        {
+          "name": "avatar_7",
+          "path": "assets/avatars/avatar_7.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/avatars__avatar_7/avatars__avatar_7.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Default avatar gallery"
+        },
+        {
+          "name": "avatar_8",
+          "path": "assets/avatars/avatar_8.png",
+          "url": "https://static.teamily.ai/sites/da89b665-c5e0-4d9c-a857-d61bcea39549/images/avatars__avatar_8/avatars__avatar_8.png",
+          "size": [
+            512,
+            512
+          ],
+          "usage": "Default avatar gallery"
+        }
+      ]
+    }
+  }
+}
