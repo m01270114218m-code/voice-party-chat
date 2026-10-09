@@ -19,6 +19,7 @@ import '../screens/pk_battle_screen.dart';
 import '../screens/tool_store_screen.dart';
 import '../screens/notifications_screen.dart';
 import '../screens/search_screen.dart';
+import '../models/room.dart';
 
 /// Named routes for the whole app.
 class AppRouter {
@@ -50,7 +51,10 @@ class AppRouter {
     switch (s.name) {
       case login: page = const LoginScreen(); break;
       case home: page = const HomeScreen(); break;
-      case room: page = RoomScreen(roomId: (s.arguments as String?) ?? ''); break;
+      case room:
+        final roomId = (s.arguments as String?) ?? '';
+        page = RoomScreen(room: Room(id: roomId, name: 'غرفة صوتية', ownerId: ''));
+        break;
       case profile: page = const ProfileScreen(); break;
       case settings: page = const SettingsScreen(); break;
       case wallet: page = const WalletScreen(); break;
