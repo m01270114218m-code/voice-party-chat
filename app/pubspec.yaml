@@ -2,11 +2,9 @@ name: voicechat
 description: "VoiceChat — Live Voice Rooms app (Hago/Yalla style)"
 publish_to: 'none'
 version: 5.0.0+5
-
 environment:
   sdk: ">=3.3.0 <4.0.0"
   flutter: ">=3.19.0"
-
 dependencies:
   flutter:
     sdk: flutter
@@ -29,15 +27,13 @@ dependencies:
   image_picker: ^1.1.2
   in_app_purchase: ^3.2.0
   flutter_stripe: ^10.1.1
-  google_fonts: ^4.0.4
+  google_fonts: ^6.2.1
   shimmer: ^3.0.0
   flutter_svg: ^2.0.9
-
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^3.0.0
-
 flutter:
   uses-material-design: true
   assets:
