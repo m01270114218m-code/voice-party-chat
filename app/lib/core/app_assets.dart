@@ -493,7 +493,7 @@ class A {
   static const String seatOccupied = seatBusy;
   static const String headset = speaker;
   static const String info = bell;
-  static const String warning = report;
+  static const String warning = btnReport;
   static const String live = roomLiveBadge;
   static const String familyShield = crestLion;
   static const String bgRoom1 = bgRoomCity;
