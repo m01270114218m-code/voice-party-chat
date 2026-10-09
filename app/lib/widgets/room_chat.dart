@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import '../core/app_assets.dart';
 import '../core/theme.dart';
 import '../models/message.dart';
+import '../models/user.dart';
 import 'asset_button.dart';
 import 'vip_badge.dart';
 
@@ -69,7 +70,7 @@ class RoomChat extends StatelessWidget {
                               ),
                               const SizedBox(width: 4),
                               VipBadge(
-                                  tier: _tier(m.vipTier), level: m.level),
+                                  tier: vipTierFromString(m.vipTier), level: m.level),
                             ],
                           ),
                           Text(m.text,
