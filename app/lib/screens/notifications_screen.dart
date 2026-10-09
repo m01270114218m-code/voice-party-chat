@@ -1,6 +1,4 @@
 import 'package:flutter/material.dart';
-import '../core/app_assets.dart';
-import '../core/theme.dart';
 import '../services/api_service.dart';
 
 /// Notifications list.
@@ -38,7 +36,7 @@ class _NotificationsScreenState extends State<NotificationsScreen> {
                   itemBuilder: (_, i) {
                     final n = _items[i];
                     return ListTile(
-                      leading: AssetIcon(A.bell, size: 24),
+                      leading: const Icon(Icons.notifications_none, size: 24),
                       title: Text(n['title'] ?? ''),
                       subtitle: Text(n['body'] ?? ''),
                     );
