@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import '../core/app_assets.dart';
 import '../core/theme.dart';
 import '../services/auth_service.dart';
+import '../models/user.dart';
 import '../widgets/asset_button.dart';
 import '../widgets/vip_badge.dart';
 import 'settings_screen.dart';
