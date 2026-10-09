@@ -11,41 +11,25 @@ dependencies:
   flutter:
     sdk: flutter
   cupertino_icons: ^1.0.6
-
-  # State management
   flutter_bloc: ^8.1.5
   equatable: ^2.0.5
-
-  # Networking
   dio: ^5.4.3
   socket_io_client: ^2.0.3+1
-
-  # Voice (Agora RTC)
   agora_rtc_engine: ^6.3.2
   permission_handler: ^11.3.1
-
-  # Animation (gifts / effects)
   svgaplayer_flutter: ^2.2.0
   lottie: 2.7.0
-
-  # Storage & utils
   shared_preferences: ^2.2.3
   flutter_secure_storage: ^9.0.0
   cached_network_image: ^3.3.1
   intl: ^0.19.0
   path_provider: ^2.1.3
-
-  # Media (voice messages, images)
   record: ^6.0.0
   just_audio: ^0.9.38
   image_picker: ^1.1.2
-
-  # Payments (in-app billing)
   in_app_purchase: ^3.2.0
   flutter_stripe: ^10.1.1
-
-  # UI
-  google_fonts: ^6.2.1
+  google_fonts: ^4.0.4
   shimmer: ^3.0.0
   flutter_svg: ^2.0.9
 
