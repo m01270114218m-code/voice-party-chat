@@ -310,9 +310,9 @@ class A {
   static const String kick = 'assets/icons/kick.png';
   static const String translate = 'assets/icons/translate.png';
   static const String voiceChanger = 'assets/icons/voice_changer.png';
-  static const String wheel = 'assets/icons/wheel.png';
+  static const String wheelIcon = 'assets/icons/wheel.png';
   static const String games = 'assets/icons/games.png';
-  static const String crown = 'assets/icons/crown.png';
+  static const String crownIcon = 'assets/icons/crown.png';
   static const String vipBadge = 'assets/icons/vip_badge.png';
   static const String levelBadge = 'assets/icons/level_badge.png';
   static const String home = 'assets/icons/home.png';
@@ -325,7 +325,7 @@ class A {
   static const String filter = 'assets/icons/filter.png';
   static const String check = 'assets/icons/check.png';
   static const String star = 'assets/icons/star.png';
-  static const String heart = 'assets/icons/heart.png';
+  static const String heartIcon = 'assets/icons/heart.png';
   static const String fire = 'assets/icons/fire.png';
   static const String trophy = 'assets/icons/trophy.png';
   static const String medal = 'assets/icons/medal.png';
@@ -340,7 +340,7 @@ class A {
   static const String luckboxOpen = 'assets/luckbox/luckbox_open.png';
   static const String luckboxTimer = 'assets/luckbox/luckbox_timer.png';
   static const String luckyEnvelope = 'assets/luckbox/lucky_envelope.png';
-  static const String goldenKey = 'assets/luckbox/golden_key.png';
+  static const String luckboxGoldenKey = 'assets/luckbox/golden_key.png';
   static const String coinStack = 'assets/luckbox/coin_stack.png';
   static const String bigDiamond = 'assets/luckbox/big_diamond.png';
   static const String horseshoeClover = 'assets/luckbox/horseshoe_clover.png';
@@ -440,7 +440,7 @@ class A {
   static const List<String> allGames = [ludoBoard, ludoDice, ludoPawn, ludoTokens, domino, dominoTile, unoCard, unoDeck, wheel, wheelPointer, gameCoins, gameTrophy, gameController, gameDicePair];
   static const List<String> allGifts = [rose, heart, chocolate, teddy, balloon, cake, coffee, perfume, ring, watch, guitar, microphone, crown, castle, yacht, car, plane, rocket, dragon, lion, peacock, whale, galaxy, firework, genie, turtle, cat, unicorn, phoenix, diamondGem, treasure, mysteryBox, redEnvelope, starShower, angelWings, hotAirBalloon, crystalBall, goldenKey, horseshoe, clover, luckyCoin, wishLamp];
   static const List<String> allIcons = [search, bell, wallet, coins, diamond, gift, mic, micMute, speaker, handRaise, close, settings, profile, friends, messages, like, comment, share, plus, lock, block, kick, translate, voiceChanger, wheel, games, crown, vipBadge, levelBadge, home, room, camera, image, send, emoji, more, filter, check, star, heart, fire, trophy, medal, shield, eye, edit, logout, refresh];
-  static const List<String> allLuckbox = [luckboxClosed, luckboxOpen, luckboxTimer, luckyEnvelope, goldenKey, coinStack, bigDiamond, horseshoeClover, mysteryGift, jackpotStar, envelopeOpen];
+  static const List<String> allLuckbox = [luckboxClosed, luckboxOpen, luckboxTimer, luckyEnvelope, luckboxGoldenKey, coinStack, bigDiamond, horseshoeClover, mysteryGift, jackpotStar, envelopeOpen];
   static const List<String> allPk = [pkProgressBar, pkBarRed, pkBarBlue, pkVictory, pkDefeat, tomato, egg, splatRed, splatBlue, pkSwords, pkTimer];
   static const List<String> allRooms = [seatEmpty, seatBusy, seatLocked, seatMuted, hostFrame, hostFrameVip, auraRing, speakerRing, voiceWaveform, handBadge, micBtn, chatBtn, giftBtn, coinPouch, familyFrame, stagePlatform, roomCardFrame, roomLiveBadge, roomLockBadge];
   static const List<String> allUi = [inputField, inputFocused, inputError, cardGlass, dialogCard, sheetHandle, tabActive, tabInactive, progressBar, loadingRing, toastSuccess, toastError, statusOnline, statusOffline, statusInRoom, badgeCount, divider, checkboxOn, checkboxOff, switchOn, switchOff];
