@@ -1,0 +1,24 @@
+{
+  "required": 380,
+  "found": 380,
+  "missing": [],
+  "extra": [],
+  "per_category": {
+    "brand": 7,
+    "icons": 48,
+    "buttons": 138,
+    "backgrounds": 10,
+    "rooms": 19,
+    "gifts": 42,
+    "games": 14,
+    "vip": 11,
+    "frames": 13,
+    "bubbles": 6,
+    "family": 9,
+    "pk": 11,
+    "luckbox": 11,
+    "ui": 21,
+    "effects": 12,
+    "avatars": 8
+  }
+}
