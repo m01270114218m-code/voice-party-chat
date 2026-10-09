@@ -38,7 +38,7 @@ class _NotificationsScreenState extends State<NotificationsScreen> {
                   itemBuilder: (_, i) {
                     final n = _items[i];
                     return ListTile(
-                      leading: const AssetIcon(A.bell, size: 24),
+                      leading: AssetIcon(A.bell, size: 24),
                       title: Text(n['title'] ?? ''),
                       subtitle: Text(n['body'] ?? ''),
                     );
