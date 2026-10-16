@@ -40,10 +40,22 @@ jobs:
           flutter --version
           java -version
 
-      - name: Check asset coverage report
+      - name: Check canonical asset manifest
         run: |
           test -f coverage_report.json
+          test -f assets/assets_manifest.json
           node -e "const r=require('./coverage_report.json'); if(r.missing?.length || r.found !== r.required) { console.error(r); process.exit(1); } console.log('Manifest report:', r.found + '/' + r.required)"
+
+      - name: Sync root assets into Flutter package
+        run: bash tools/sync_assets.sh
+
+      - name: Verify Flutter asset directories
+        working-directory: app
+        run: |
+          for d in buttons icons backgrounds rooms avatars gifts games vip family pk luckbox frames ui bubbles brand lottie effects svga; do
+            test -d "assets/$d" || { echo "Missing Flutter asset directory: assets/$d"; exit 1; }
+          done
+          echo "All asset directories declared in pubspec.yaml exist."
 
       - name: Install dependencies
         working-directory: app
