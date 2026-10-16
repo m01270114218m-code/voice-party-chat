@@ -1,1 +1,0 @@
-export const palette={bgGradient:['#0b1032','#1e2a74','#1b1950'] as const,text:'#fff',muted:'#9ca3af'};
