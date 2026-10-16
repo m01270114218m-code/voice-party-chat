@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:google_fonts/google_fonts.dart';
 
 /// Central design system — dark, premium, "night club" feel like Hago/Yalla.
 class AppTheme {
@@ -27,7 +26,7 @@ class AppTheme {
         secondary: pink,
         surface: surface,
       ),
-      textTheme: GoogleFonts.cairoTextTheme(base.textTheme).apply(
+      textTheme: base.textTheme.apply(
         bodyColor: textPrimary,
         displayColor: textPrimary,
       ),
