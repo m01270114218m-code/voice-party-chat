@@ -40,11 +40,10 @@ jobs:
           flutter --version
           java -version
 
-      - name: Check canonical asset manifest
+      - name: Check asset coverage report
         run: |
           test -f coverage_report.json
-          test -f assets/assets_manifest.json
-          node -e "const r=require('./coverage_report.json'); if(r.missing?.length || r.found !== r.required) { console.error(r); process.exit(1); } console.log('Manifest report:', r.found + '/' + r.required)"
+          node -e "const r=require('./coverage_report.json'); if(r.missing?.length || r.found !== r.required) { console.error(r); process.exit(1); } console.log('Asset report:', r.found + '/' + r.required)"
 
       - name: Sync root assets into Flutter package
         run: bash tools/sync_assets.sh
@@ -56,6 +55,11 @@ jobs:
             test -d "assets/$d" || { echo "Missing Flutter asset directory: assets/$d"; exit 1; }
           done
           echo "All asset directories declared in pubspec.yaml exist."
+          svga_count=$(find assets/svga -type f -name '*.svga' | wc -l)
+          echo "SVGA binary files found: $svga_count"
+          if [ "$svga_count" -eq 0 ]; then
+            echo "::warning::No .svga animation binaries are committed; the app must use its Lottie fallback until real exported SVGA files are added."
+          fi
 
       - name: Install dependencies
         working-directory: app
