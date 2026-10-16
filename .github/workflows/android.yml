@@ -15,10 +15,10 @@ concurrency:
   cancel-in-progress: true
 
 jobs:
-  build-apk:
-    name: Build Android APK
+  verify-and-build:
+    name: Analyze, test and build Android APK
     runs-on: ubuntu-latest
-    timeout-minutes: 45
+    timeout-minutes: 50
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -29,32 +29,39 @@ jobs:
           distribution: temurin
           java-version: '17'
 
-      - name: Set up Flutter
+      - name: Set up Flutter stable
         uses: subosito/flutter-action@v2
         with:
           channel: stable
           cache: true
 
-      - name: Show toolchain
+      - name: Print toolchain
         run: |
           flutter --version
           java -version
 
-      - name: Install Flutter dependencies
+      - name: Check asset coverage report
+        run: |
+          test -f coverage_report.json
+          node -e "const r=require('./coverage_report.json'); if(r.missing?.length || r.found !== r.required) { console.error(r); process.exit(1); } console.log('Manifest report:', r.found + '/' + r.required)"
+
+      - name: Install dependencies
         working-directory: app
         run: flutter pub get
 
-      - name: Verify asset declarations and registry
-        working-directory: .
-        run: |
-          test -f coverage_report.json
-          node -e "const r=require('./coverage_report.json'); if(r.missing?.length || r.found !== r.required) { console.error(r); process.exit(1); } console.log('Asset coverage:', r.found + '/' + r.required)"
+      - name: Static analysis
+        working-directory: app
+        run: flutter analyze
+
+      - name: Run automated tests
+        working-directory: app
+        run: flutter test
 
       - name: Build release APK
         working-directory: app
         run: flutter build apk --release
 
-      - name: Upload APK
+      - name: Upload release APK
         uses: actions/upload-artifact@v4
         with:
           name: mohamed-chat-release-apk
