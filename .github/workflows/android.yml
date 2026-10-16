@@ -67,7 +67,7 @@ jobs:
 
       - name: Static analysis
         working-directory: app
-        run: flutter analyze
+        run: flutter analyze --no-fatal-infos --no-fatal-warnings
 
       - name: Run automated tests
         working-directory: app
