@@ -1,0 +1,63 @@
+name: Mohamed Chat Android APK
+
+on:
+  push:
+    branches: [mohamed-chat]
+  pull_request:
+    branches: [mohamed-chat]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: android-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  build-apk:
+    name: Build Android APK
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Java 17
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - name: Set up Flutter
+        uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+          cache: true
+
+      - name: Show toolchain
+        run: |
+          flutter --version
+          java -version
+
+      - name: Install Flutter dependencies
+        working-directory: app
+        run: flutter pub get
+
+      - name: Verify asset declarations and registry
+        working-directory: .
+        run: |
+          test -f coverage_report.json
+          node -e "const r=require('./coverage_report.json'); if(r.missing?.length || r.found !== r.required) { console.error(r); process.exit(1); } console.log('Asset coverage:', r.found + '/' + r.required)"
+
+      - name: Build release APK
+        working-directory: app
+        run: flutter build apk --release
+
+      - name: Upload APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: mohamed-chat-release-apk
+          path: app/build/app/outputs/flutter-apk/app-release.apk
+          if-no-files-found: error
+          retention-days: 14
