@@ -21,8 +21,8 @@ class AuthService {
     return currentUser!;
   }
 
-  Future<User> login({required String email, required String password}) async {
-    final res = await _api.post('/auth/login', data: {'email': email, 'password': password});
+  Future<User> login({required String identifier, required String password}) async {
+    final res = await _api.post('/auth/login', data: {'identifier': identifier, 'password': password});
     await _persist(res);
     return currentUser!;
   }
