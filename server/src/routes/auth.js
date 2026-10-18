@@ -20,10 +20,14 @@ router.post('/register', authLimiter, asyncHandler(async (req, res) => {
   res.json({ ...tokens, user: user.toPublic() });
 }));
 
-/** POST /api/auth/login — email + password */
+/** POST /api/auth/login — username or email + password */
 router.post('/login', authLimiter, asyncHandler(async (req, res) => {
-  const { email, password } = req.body;
-  const user = await User.findOne({ email }).select('+passwordHash');
+  const { username, email, identifier, password } = req.body;
+  const loginId = String(identifier || username || email || '').trim();
+  if (!loginId || !password) throw new ApiError(400, 'missing_fields');
+  const user = await User.findOne({
+    $or: [{ username: loginId }, { email: loginId.toLowerCase() }],
+  }).select('+passwordHash');
   if (!user || !user.passwordHash) throw new ApiError(401, 'invalid_credentials');
   const ok = await bcrypt.compare(password, user.passwordHash);
   if (!ok) throw new ApiError(401, 'invalid_credentials');
