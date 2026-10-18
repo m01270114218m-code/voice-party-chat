@@ -46,8 +46,10 @@ const env = {
   },
 
   admin: {
+    username: process.env.ADMIN_USERNAME || 'admin',
     email: process.env.ADMIN_EMAIL || 'admin@voicechat.app',
-    password: process.env.ADMIN_PASSWORD || 'Admin@12345',
+    // Demo-only default. Set ADMIN_PASSWORD to a strong secret in deployed environments.
+    password: process.env.ADMIN_PASSWORD || '1212',
   },
 
   isProd: (process.env.NODE_ENV || 'development') === 'production',
