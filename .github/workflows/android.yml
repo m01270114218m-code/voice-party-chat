@@ -1,0 +1,86 @@
+name: Mohamed Chat Android APK
+
+on:
+  push:
+    branches: [mohamed-chat]
+  pull_request:
+    branches: [mohamed-chat]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: android-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  verify-and-build:
+    name: Analyze, test and build Android APK
+    runs-on: ubuntu-latest
+    timeout-minutes: 50
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Java 17
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '17'
+
+      - name: Set up Flutter stable
+        uses: subosito/flutter-action@v2
+        with:
+          channel: stable
+          cache: true
+
+      - name: Print toolchain
+        run: |
+          flutter --version
+          java -version
+
+      - name: Check asset coverage report
+        run: |
+          test -f coverage_report.json
+          node -e "const r=require('./coverage_report.json'); if(r.missing?.length || r.found !== r.required) { console.error(r); process.exit(1); } console.log('Asset report:', r.found + '/' + r.required)"
+
+      - name: Sync root assets into Flutter package
+        run: bash tools/sync_assets.sh
+
+      - name: Verify Flutter asset directories
+        working-directory: app
+        run: |
+          for d in buttons icons backgrounds rooms avatars gifts games vip family pk luckbox frames ui bubbles brand lottie effects svga; do
+            test -d "assets/$d" || { echo "Missing Flutter asset directory: assets/$d"; exit 1; }
+          done
+          echo "All asset directories declared in pubspec.yaml exist."
+          svga_count=$(find assets/svga -type f -name '*.svga' | wc -l)
+          echo "SVGA binary files found: $svga_count"
+          if [ "$svga_count" -eq 0 ]; then
+            echo "::warning::No .svga animation binaries are committed; the app must use its Lottie fallback until real exported SVGA files are added."
+          fi
+
+      - name: Install dependencies
+        working-directory: app
+        run: flutter pub get
+
+      - name: Static analysis
+        working-directory: app
+        run: flutter analyze --no-fatal-infos --no-fatal-warnings
+
+      - name: Run automated tests
+        working-directory: app
+        run: flutter test
+
+      - name: Build release APK
+        working-directory: app
+        run: flutter build apk --release
+
+      - name: Upload release APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: mohamed-chat-release-apk
+          path: app/build/app/outputs/flutter-apk/app-release.apk
+          if-no-files-found: error
+          retention-days: 14

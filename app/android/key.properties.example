@@ -1,0 +1,8 @@
+# Rename to key.properties for release signing.
+# Generate the keystore with:
+#   keytool -genkey -v -keystore ~/voicechat-upload.jks -keyalg RSA \
+#           -keysize 2048 -validity 10000 -alias upload
+storePassword=YOUR_STORE_PASSWORD
+keyPassword=YOUR_KEY_PASSWORD
+keyAlias=upload
+storeFile=/absolute/path/to/voicechat-upload.jks
