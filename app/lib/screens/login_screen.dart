@@ -25,7 +25,7 @@ class _LoginScreenState extends State<LoginScreen> {
     try {
       if (_isLogin) {
         await AuthService.instance
-            .login(email: _email.text.trim(), password: _password.text);
+            .login(identifier: _email.text.trim(), password: _password.text);
       } else {
         await AuthService.instance.register(
           username: _username.text.trim(),
@@ -91,9 +91,9 @@ class _LoginScreenState extends State<LoginScreen> {
                 ],
                 TextField(
                   controller: _email,
-                  keyboardType: TextInputType.emailAddress,
+                  keyboardType: _isLogin ? TextInputType.text : TextInputType.emailAddress,
                   decoration: const InputDecoration(
-                    hintText: '\u0627\u0644\u0628\u0631\u064a\u062f \u0627\u0644\u0625\u0644\u0643\u062a\u0631\u0648\u0646\u064a',
+                    hintText: _isLogin ? '\u0627\u0633\u0645 \u0627\u0644\u0645\u0633\u062a\u062e\u062f\u0645 \u0623\u0648 \u0627\u0644\u0628\u0631\u064a\u062f \u0627\u0644\u0625\u0644\u0643\u062a\u0631\u0648\u0646\u064a' : '\u0627\u0644\u0628\u0631\u064a\u062f \u0627\u0644\u0625\u0644\u0643\u062a\u0631\u0648\u0646\u064a',
                     prefixIcon: AssetIcon(A.chat, size: 20),
                   ),
                 ),
